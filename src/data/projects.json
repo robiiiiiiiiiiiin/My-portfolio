@@ -1,0 +1,59 @@
+{
+    "mooderize": {
+        "title": "Mooderize",
+        "desc": "Audio effects app",
+        "year": "2020",
+        "short-tags": "JavaScript,Node.js,Web Audio API",
+        "full-tags": "HTML,CSS,JavaScript,Web Audio API,Node.js,PWA",
+        "img": "thumb_mooderize.jpg",
+        "visit": "https://mooderize.com",
+        "source": "https://github.com/robiiiiiiiiiiiin/Mooderize"
+    },
+    "gryonbiketest": {
+        "title": "Gryon Bike Test",
+        "desc": "App for a bike test event",
+        "year": "2020",
+        "short-tags": "Laravel,DB modeling,jQuery",
+        "full-tags": "HTML,Laravel,PHP,DB modeling,jQuery",
+        "img": "thumb_gryonbiketest.jpg",
+        "visit": "http://biketest.robinbecherraz.ch",
+        "source": "https://github.com/JeanHerbaut/Arthrose_BikeTest"
+    },
+    "theapologist": {
+        "title": "The Apologist",
+        "desc": "Cinema / Cultural blog",
+        "year": "2019",
+        "short-tags": "Wordpress,CSS,SQL",
+        "full-tags": "Wordpress,CSS,SQL",
+        "img": "thumb_theapologist.jpg",
+        "visit": "https://theapologistmag.com/"
+    },
+    "automaton": {
+        "title": "Cellular Automaton",
+        "desc": "Configurable life like automaton",
+        "year": "2018",
+        "short-tags": "jQuery,Canvas,OOP",
+        "full-tags": "jQuery,Canvas,OOP",
+        "img": "thumb_automaton.jpg",
+        "visit": "http://automaton.surge.sh/",
+        "source": "https://github.com/robiiiiiiiiiiiin/Cellular-Automaton"
+    },
+    "swisssolarboat": {
+        "title": "Swiss Solar Boat",
+        "desc": "Association website",
+        "year": "2018",
+        "short-tags": "Wordpress,CSS,JavaScript",
+        "full-tags": "Wordpress,CSS,JavaScript",
+        "img": "thumb_ssb.jpg",
+        "visit": "https://swisssolarboat.ch"
+    },
+    "myportfolio": {
+        "title": "My Portfolio",
+        "desc": "Automated and evolutive static website",
+        "year": "2020",
+        "short-tags": "Sass,Webpack,HandleBabelSassPack",
+        "full-tags": "HTML,CSS,Sass,Webpack,Handlebars",
+        "img": "thumb_myportfolio.jpg",
+        "visit": "https://robinbecherraz.ch/"
+    }
+}

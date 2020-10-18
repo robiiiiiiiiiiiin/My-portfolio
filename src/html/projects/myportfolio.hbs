@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> partials/commonHeaders}}
+    {{> partials/projectMetaTags data=data project=myportfolio 
+        desc="An automated and evolutive static website using Handlebars templating compiled at Webpack build."
+    }}
+    <title>My projects - My Portfolio</title>
+</head>
+<body>
+    <section id="sect_project">
+        {{> partials/projectHeader data=data project=myportfolio}}
+        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+        <p>I used <a href="https://handlebarsjs.com/" target="blank">Handlebars</a> and <a href="https://github.com/sagold/handlebars-webpack-plugin" target="blank">handlebars-webpack-plugin</a> to automate the generation of the projects' thumbnails and the projets pages' header from a json file.</p>
+        <p>For that project, I created a frontend development environment setup that you can find <a href="https://github.com/robiiiiiiiiiiiin/HandleBabelSassPack" target="blank">here</a>.</p>
+        <div class="mockups">
+            <img src="../img/myportfolio-1.jpg" alt="My portfolio screenshot" class="screenshot">
+            <img src="../img/myportfolio-2.jpg" alt="My portfolio screenshot" class="screenshot small">
+            <img src="../img/myportfolio-3.jpg" alt="My portfolio screenshot" class="screenshot small">
+        </div>
+        <h2><span class="tilted_bg"><span class="bg">Context & Solutions</span></span></h2>
+        <p>I needed to make this website quickly. And wanted it to be evolutive; I wanted to be able to add my future projects easily.
+        I had already used Handlebars templating in an SPA project, where templates were dinamically generated in JS. But here, I wanted to use it for development, and serve a static page to the client.</p>
+
+        <p>I found the <a href="https://github.com/sagold/handlebars-webpack-plugin" target="blank">handlebars-webpack-plugin</a>, who was exactly suited for my needs.
+        I added it to my usual Webpack config, I also added Sass, which I had never used but fell in <3 with. Whit that config, I created a frontend development environment setup that you can find <a href="https://github.com/robiiiiiiiiiiiin/HandleBabelSassPack" target="blank">here</a>. I will probably re-use that setup for future simple websites.</p>
+
+        <h2><span class="tilted_bg"><span class="bg">Room for improvement</span></span></h2>
+        <p>The handlebars-webpack-plugin was perfectly suited for my needs, but it may be a little limited for other projects. I'll try to use Gulp instead of Handlebars and see if it's better. I'll also look for something that can automatically optimize images. Gulp may also be a good solution for that.</p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> partials/commonHeaders}}
+    {{> partials/projectMetaTags data=data project=theapologist 
+        desc="Redesign of The Apologist website."
+    }}
+    <title>My projects - The Apologist</title>
+</head>
+<body>
+    <section id="sect_project">
+        {{> partials/projectHeader data=data project=theapologist}}
+        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+        <p>I was hired to change the WordPress template of a website already in production. The website contained arround 500 articles. I had to make some SQL requests in the WordPress' database to adapt the articles' content to the way the new template worked.</p>
+        <div class="mockups">
+            <img src="../img/theapologist-1.jpg" alt="The Apologist screenshot" class="screenshot">
+            <img src="../img/theapologist-2.jpg" alt="The Apologist screenshot" class="screenshot">
+        </div>
+</section>
+</body>
+</html>

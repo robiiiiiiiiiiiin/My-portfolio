@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> partials/commonHeaders}}
+    {{> partials/projectMetaTags data=data project=gryonbiketest 
+        desc="A platform for a biket test event. A Bike Advisor for the visitors and a management platform for the staff. Built with Laravel by 3 developers in 1 month"
+    }}
+    <title>My projects - Gryon Bike Test</title>
+</head>
+<body>
+    <section id="sect_project">
+        {{> partials/projectHeader data=data project=gryonbiketest}}
+        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+        <p><a href="https://www.bikegryon.ch/" target="blank">Gryon Bike Test</a> is a three days event where people can test a multitude of bikes brought by different bike sellers. I leaded a three developers team during a one month school project whose aim was to build a MVP application for that event. This app is a management interface for the event staff, and it's also a kind of "<s>Trip</s> Bike advisor" for the event visitors</p>
+        <p><span>You can test the app with the following credentials:</span>
+            <ul>
+                <li>visiteur@gmail.com</li>
+                <li>exposant@gmail.com</li>
+                <li>admin@gmail.com</li>
+            </ul>
+            <span>The password is "password" for all of them</span>
+        </p>
+        <div class="mockups">
+            <img src="../img/biketest-1.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+            <img src="../img/biketest-2.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+            <img src="../img/biketest-3.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+            <img src="../img/biketest-4.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+            <img src="../img/biketest-5.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
+            <img src="../img/biketest-6.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
+            <img src="../img/biketest-7.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
+        </div>
+        <h2><span class="tilted_bg"><span class="bg">Context</span></span></h2>
+        <p>This project was the year-end project of my bachelor 2nd year. The goal was to build, in 20 days, a functionnable MVP for the <a href="https://www.bikegryon.ch/" target="blank">Gryon Bike Test</a>, allowing their staff to manage the visitors and the bikes loaning.</p>
+        <p>We were a team of five people. Two of us worked on the visual / UX part, One was working mainly on the HTML / CSS, and myself and the last person worked on the backend. I was leading our three people developement team.</p>
+        <p>This project was not only a coding project, we also did all the ideation to determine our concept and our functionnalities.</p>
+
+        <h2><span class="tilted_bg"><span class="bg">Functionnalities</span></span></h2>
+        <p>There is the functionnalities we implemented:</p>
+        <span class="ul_title">Functionnalities for the staff</span>
+        <ul>
+            <li>Management of the application's users and their rights</li>
+        </ul>
+        <span class="ul_title">Functionnalities for the bikes sellers</span>
+        <ul>
+            <li>Manage their bike catalogue</li>
+        </ul>
+        <span class="ul_title">Functionnalities for the visitors</span>
+        <ul>
+            <li>Buy a ticket (The payment part is fake, so it's more of a registration) / Login</li>
+            <li>See all bikes present at the event with their ratings and comments</li>
+            <li>Rate the bikes they have tested on mutliple criterias</li>
+        </ul>
+
+        <h2><span class="tilted_bg"><span class="bg">Room for improvement</span></span></h2>
+        <p>The app is a MVP. So a lot of functionnalities could be added. I'm pretty happy with the code, but sometimes we learnt something during the development and we didn't have time to refactor all the code. The database modeling could maybe be improved as well. Also, our CSS skills were modest at that time, the responsive and cross-browser css could be improved.</p>
+    </section>
+</body>
+</html>

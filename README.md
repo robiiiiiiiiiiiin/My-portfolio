@@ -8,7 +8,7 @@ Every pages in /src/html/projects use a template, and some headers are generated
 
 ## Installation
 
-Clone the repository, then run `npm install`
+Clone the repository, run `npm install`, then `npm run build`, then `npm run translate`
 
 ## Usage
 
@@ -19,3 +19,5 @@ Use `npm run watch` to compile everything on the fly
 Use `npm run preview` to run a live-server auto-refreshing on every save
 
 Use `npm run build` to build your app for production
+
+Use `npm run translate` to translate the pages and put them into the appropriates folders

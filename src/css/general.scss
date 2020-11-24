@@ -240,6 +240,7 @@ body {
             max-height: 356px;
             margin: 10px 3% 10px 0;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+            max-width: 90vw;
         }
         > img.screenshot.mobile {
             width: 47%;
@@ -248,6 +249,7 @@ body {
         > img.screenshot.small {
             max-height: 280px;
             max-width: 350px;
+            max-width: 90vw;
         }
     }
     .ul_title { font-weight: 700;}

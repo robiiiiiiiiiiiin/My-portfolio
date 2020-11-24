@@ -8,7 +8,10 @@
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack --mode=development --env.NODE_ENV=development --watch --devtool eval-source-map",
-    "preview": "live-server dist/"
+    "preview": "live-server dist/",
+    "i18n": "static-i18n -l fr -i en -i fr to-translate -o dist",
+    "postTranslate": "postTranslate.sh && node postTranslate.js",
+    "translate": "npm run i18n && npm run postTranslate"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",

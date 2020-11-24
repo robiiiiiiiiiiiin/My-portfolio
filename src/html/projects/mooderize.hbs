@@ -3,15 +3,16 @@
 <head>
     {{> partials/commonHeaders}}
     {{> partials/projectMetaTags data=data project=mooderize 
-        desc="A single page app allowing you to apply sound effects to audio file using the Web Audio API and a node.js API."
+        metaDesc="mooderize.metaDesc"
     }}
-    <title>My projects - Mooderize</title>
+    <title data-t>mooderize.titleTag</title>
 </head>
 <body>
+    {{>partials/langBtn project=mooderize}}
     <section id="sect_project">
         {{> partials/projectHeader data=data project=mooderize}}
         <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p>Mooderize is a single page app which allows you to apply sound effects to an audio file. The audio is processed by the <a href="https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API" target="blank">Web Audio API</a>. The website also contains a feature allowing users to asynchronously load a YouTube video. For this feature, I made a small API using Express.js.</p>
+        <p data-t>mooderize.sentence1</p>
         <div class="mockups">
             <img src="../img/mooderize-1.jpg" alt="mooderize screenshot" class="mobile screenshot">
             <img src="../img/mooderize-2.jpg" alt="mooderize screenshot" class="mobile screenshot">
@@ -19,15 +20,15 @@
             <img src="../img/mooderize-4.jpg" alt="mooderize screenshot" class="mobile screenshot">
             <img src="../img/mooderize-5.jpg" alt="mooderize screenshot" class="mobile screenshot">
         </div>
-        <h2><span class="tilted_bg"><span class="bg">Goal</span></span></h2>
-        <p>I wanted to find a way to process audio on a website. I wanted the user to be able to upload a song, choose a pre-maid audio effect, apply it to the song and then download the modified song. I also wanted the website to be a PWA.</p>
-        <h2><span class="tilted_bg"><span class="bg">Problems & Solutions</span></span></h2>
-        <p>My main problem was to find a library who offered, at least, basic EQ and reverb effects. I found out that there are only few reliable options. I tried <a href="https://github.com/belangeo/pyo" target="blank">Python PYO</a>, which was a bit too complicated, I also tried <a href="https://github.com/carlthome/python-audio-effects" target="blank">python-audio-effects</a>, but I honestly don't remember why I didn't use it. But my final choice went to the JavaScript <a href="https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API">Web Audio API</a>. This solution has the particularity of being full frontend.
-        <p>The second problem, which was linked to the first one, was that the Web Audio API doesn't provide the possibility to create a file from the modified song. You can stream the song only. The only solution I found is to use the <a href="https://github.com/mattdiamond/Recorderjs" target="blank">Recorderjs</a> library. It's unfortunately not maintained anymore, but I know that a lot of websites are using it and it's a small module so I went with it.</p>
-        <p>The third problem was to use a YouTube link as an audio source. YouTube is not helpful on this, as you can't use the audio from an embed YouTube video. I didn't find any online API to retrieve an audio file from a YouTube link, but I found multiple python and Node modules on GitHub and went for the <a href="https://github.com/fent/node-ytdl" target="blank">node-ytdl</a> module. I then built a very simple API using Express.js, just to retrieve the audio file using an ajax call.</p>
-        <h2><span class="tilted_bg"><span class="bg">Room for improvement</span></span></h2>
-        <p>The UI and the visual aspect could be improved a lot. Also, I wanted to try to build the entire app using vanilla JavaScript to know if jQuery was still necessary in 2020. And according to me, it is. And more than that, a library like Redux would certainly help a lot to handle the navigation, which is a bit chaotic in JS. 
-This app was kind of an experiment, so the overall code is not very clean.</p>
+        <h2><span class="tilted_bg"><span class="bg" data-t>projects.goal</span></span></h2>
+        <p data-t>mooderize.goal1</p>
+        <h2><span class="tilted_bg"><span class="bg" data-t>projects.problemsSolutions</span></span></h2>
+        <p data-t>mooderize.ps1</p>
+        <p data-t>mooderize.ps2</p>
+        <p data-t>mooderize.ps3</p>
+        <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
+        <p data-t>mooderize.impr1</p>
     </section>
+<script src="/js/bundle.js"></script>
 </body>
 </html>

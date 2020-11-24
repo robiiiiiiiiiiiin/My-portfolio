@@ -1,7 +1,10 @@
 {
     "mooderize": {
-        "title": "Mooderize",
-        "desc": "Audio effects app",
+        "filename": "mooderize.filename",
+        "enFilename": "mooderize.enFilename",
+        "frFilename": "mooderize.frFilename",
+        "title": "mooderize.title",
+        "desc": "mooderize.desc",
         "year": "2020",
         "short-tags": "JavaScript,Node.js,Web Audio API",
         "full-tags": "HTML,CSS,JavaScript,Web Audio API,Node.js,PWA",
@@ -10,8 +13,11 @@
         "source": "https://github.com/robiiiiiiiiiiiin/Mooderize"
     },
     "gryonbiketest": {
-        "title": "Gryon Bike Test",
-        "desc": "App for a bike test event",
+        "filename": "gryonbiketest.filename",
+        "enFilename": "gryonbiketest.enFilename",
+        "frFilename": "gryonbiketest.frFilename",
+        "title": "gryonbiketest.title",
+        "desc": "gryonbiketest.desc",
         "year": "2020",
         "short-tags": "Laravel,DB modeling,jQuery",
         "full-tags": "HTML,Laravel,PHP,DB modeling,jQuery",
@@ -20,8 +26,11 @@
         "source": "https://github.com/JeanHerbaut/Arthrose_BikeTest"
     },
     "theapologist": {
-        "title": "The Apologist",
-        "desc": "Cinema / Cultural blog",
+        "filename": "theapologist.filename",
+        "enFilename": "theapologist.enFilename",
+        "frFilename": "theapologist.frFilename",
+        "title": "theapologist.title",
+        "desc": "theapologist.desc",
         "year": "2019",
         "short-tags": "Wordpress,CSS,SQL",
         "full-tags": "Wordpress,CSS,SQL",
@@ -29,8 +38,11 @@
         "visit": "https://theapologistmag.com/"
     },
     "automaton": {
-        "title": "Cellular Automaton",
-        "desc": "Configurable life like automaton",
+        "filename": "automaton.filename",
+        "enFilename": "automaton.enFilename",
+        "frFilename": "automaton.frFilename",
+        "title": "automaton.title",
+        "desc": "automaton.desc",
         "year": "2018",
         "short-tags": "jQuery,Canvas,OOP",
         "full-tags": "jQuery,Canvas,OOP",
@@ -39,8 +51,11 @@
         "source": "https://github.com/robiiiiiiiiiiiin/Cellular-Automaton"
     },
     "swisssolarboat": {
-        "title": "Swiss Solar Boat",
-        "desc": "Association website",
+        "filename": "swisssolarboat.filename",
+        "enFilename": "swisssolarboat.enFilename",
+        "frFilename": "swisssolarboat.frFilename",
+        "title": "swisssolarboat.title",
+        "desc": "swisssolarboat.desc",
         "year": "2018",
         "short-tags": "Wordpress,CSS,JavaScript",
         "full-tags": "Wordpress,CSS,JavaScript",
@@ -48,12 +63,28 @@
         "visit": "https://swisssolarboat.ch"
     },
     "myportfolio": {
-        "title": "My Portfolio",
-        "desc": "Automated and evolutive static website",
+        "filename": "myportfolio.filename",
+        "enFilename": "myportfolio.enFilename",
+        "frFilename": "myportfolio.frFilename",
+        "title": "myportfolio.title",
+        "desc": "myportfolio.desc",
         "year": "2020",
         "short-tags": "Sass,Webpack,HandleBabelSassPack",
         "full-tags": "HTML,CSS,Sass,Webpack,Handlebars",
         "img": "thumb_myportfolio.jpg",
-        "visit": "https://robinbecherraz.ch/"
+        "visit": "https://robinbecherraz.ch/",
+        "source": "https://github.com/robiiiiiiiiiiiin/My-portfolio"
+    },
+    "lechodubois": {
+        "filename": "lechodubois.filename",
+        "enFilename": "lechodubois.enFilename",
+        "frFilename": "lechodubois.frFilename",
+        "title": "lechodubois.title",
+        "desc": "lechodubois.desc",
+        "year": "2020",
+        "short-tags": "CSS,SEO,Sharp",
+        "full-tags": "HTML,CSS,SEO,Sharp,PHP,JavaScript",
+        "img": "thumb_lechodubois.jpg",
+        "visit": "https://lechodubois.ch/"
     }
 }

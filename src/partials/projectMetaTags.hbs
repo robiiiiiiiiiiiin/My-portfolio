@@ -1,12 +1,12 @@
-<meta property='og:title' content='{{project.title}} - a project by Robin Bécherraz' />
+<meta property='og:title' data-attr-t data-attr-t-interpolate content-t='{{surroundWithCurlyBraces project.title}} - {{surroundWithCurlyBraces "projects.addToMetaTitle"}}' />
 <meta property='og:image' content='https://robinbecherraz.ch/img/{{project.img}}' />
-<meta property='og:description' content='{{desc}}' />
-<meta property='og:url' content='https://robinbecherraz.ch/projects/{{flattenString project.title}}' />
+<meta property='og:description' data-attr-t content-t='{{metaDesc}}' />
+<meta property='og:url' data-attr-t data-attr-t-interpolate content-t='https://robinbecherraz.ch/{{surroundWithCurlyBraces "global.addToUrl"}}{{surroundWithCurlyBraces "global.projectsDir"}}{{surroundWithCurlyBraces project.filename}}' />
 <meta property='og:type' content='website' />
 
-<meta property='twitter:title' content='{{project.title}} - a project by Robin Bécherraz' />
+<meta property='twitter:title' data-attr-t data-attr-t-interpolate content-t='{{surroundWithCurlyBraces project.title}} - {{surroundWithCurlyBraces "projects.addToMetaTitle"}}' />
 <meta property='twitter:image' content='https://robinbecherraz.ch/img/{{project.img}}' />
-<meta property='twitter:description' content='{{desc}}' />
-<meta property='twitter:url' content='https://robinbecherraz.ch/projects/{{flattenString project.title}}' />
+<meta property='twitter:description' data-attr-t content-t='{{metaDesc}}' />
+<meta property='twitter:url' data-attr-t data-attr-t-interpolate content-t='https://robinbecherraz.ch/{{surroundWithCurlyBraces "global.addToUrl"}}{{surroundWithCurlyBraces "global.projectsDir"}}{{surroundWithCurlyBraces project.filename}}' />
 
-<meta name="description" content="{{desc}}"/>
+<meta name="description" data-attr-t content-t="{{desc}}"/>

@@ -1,49 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-attr-t lang-t="headers.lang">
 <head>
     {{> partials/commonHeaders}}
 
-    <meta property='og:title' content='Robin Bécherraz - Web developer & Media engineer' />
+    <meta property='og:title' data-attr-t content-t='home.title' />
     <meta property='og:image' content='https://robinbecherraz.ch/img/thumb_myportfolio.jpg' />
-    <meta property='og:description' content="I'm a young media engineer, passionate about web and technology. Visit my portfolio to know more about me and my work." />
+    <meta property='og:description' data-attr-t content-t="home.metaDesc" />
     <meta property='og:url' content='https://robinbecherraz.ch' />
     <meta property='og:type' content='website' />
-    <meta property='twitter:title' content='Robin Bécherraz - Web developer & Media engineer' />
+    <meta property='twitter:title' data-attr-t content-t='home.title' />
     <meta property='twitter:image' content='https://robinbecherraz.ch/img/thumb_myportfolio.jpg' />
-    <meta property='twitter:description' content="I'm a young media engineer, passionate about web and technology. Visit my portfolio to know more about me and my work." />
+    <meta property='twitter:description' data-attr-t content-t="home.metaDesc" />
     <meta property='twitter:url' content='https://robinbecherraz.ch' />
 
-    <title>Robin Bécherraz - Web developer & Media engineer</title>
-    <meta name="description" content="I'm a young media engineer, passionate about web and technology. Visit my portfolio to know more about me and my work."/>
+    <title data-t>home.title</title>
+    <meta name="description" data-attr-t content-t="home.metaDesc"/>
 </head>
 <body>
-    
+    {{>partials/langBtn}}
     <section id="sect_head">
-        <img src="img/portrait.jpg" alt="Robin's portrait">
+        <img src="/img/portrait.jpg" data-attr-t alt-t="home.portraitAlt">
         <h1><span class="tilted_bg"><span class="bg">Robin</span></span><br>Bécherraz</h1>
-        <p>I'm a young media engineer, passionate about web and technology.</p>
-        <p>My background as a computer scientist taught me a lot of technical knowledges and brought me some experience in the corporate world. But I wanted to put my terminal aside for a moment to learn
-beyond pure technic. This led me to become a web developer with a large range of side skills, like UX, communication, marketing, content creation and more.</p>
+        <p data-t>home.catchPhrase1</p>
+        <p data-t>home.catchPhrase2</p>
     </section>
 
     <section id="sect_about">
-        <h2><span class="tilted_bg"><span class="bg">About me</span></span></h2>
+        <h2><span class="tilted_bg"><span class="bg" data-t>home.aboutMe</span></span></h2>
         <div class="content">
-            <h3>I live in</h3>
-            <p>Romandy Switzerland</p>
-            <h3>I was born in</h3>
+            <h3 data-t>home.iLiveIn</h3>
+            <p data-t>home.whereILive</p>
+            <h3 data-t>home.wasBornIn</h3>
             <p>1998</p>
-            <h3>I speak</h3>
-            <p>French (mother tongue) English (speakink/writing B2, I understand C1)</p>
-            <h3>Education</h3>
-            <p>IT scientist CFC, media engineering bachelor's degree</p>
-            <h3>My favorite ...</h3>
-            <p>Movie: Léon (1994), TV show: Mr Robot, Band: Moon Hooch, Video game: Skyrim, Sport: bloc climbing, Colour: #AE009B</p>
+            <h3 data-t>home.iSpeak</h3>
+            <p data-t>home.whatISpeak</p>
+            <h3 data-t>home.education</h3>
+            <p data-t>home.educationContent</p>
+            <h3 data-t>home.myFavorites</h3>
+            <p data-t>home.myFavoritesContent</p>
         </div>
     </section>
 
     <section id="sect_skills">
-        <h2><span class="tilted_bg"><span class="bg">Skills</span></span></h2>
+        <h2><span class="tilted_bg"><span class="bg" data-t>home.skills</span></span></h2>
         <div class="content">
             <div>
                 <h3>Frontend</h3>
@@ -54,12 +53,12 @@ beyond pure technic. This led me to become a web developer with a large range of
                 <p>PHP Laravel Node.js Linux<span class="nbsp">&nbsp;</span>servers DB<span class="nbsp">&nbsp;</span>modeling SQL REST</p>
             </div>
             <div>
-                <h3>Other</h3>
+                <h3 data-t>home.other</h3>
                 <p>Git WordPress Webpack OOP SEO</p>
             </div>
             <div>
                 <h3>Soft skills</h3>
-                <p>Digital<span class="nbsp">&nbsp;</span>marketing UX/UI Content<span class="nbsp">&nbsp;</span>creation<span class="nbsp">&nbsp;</span>(Adobe<span class="nbsp">&nbsp;</span>suite) Project<span class="nbsp">&nbsp;</span>management</p>
+                <p data-t>home.skillsContent</p>
             </div>
         </div>
     </section>
@@ -97,6 +96,6 @@ beyond pure technic. This led me to become a web developer with a large range of
         </div>
     </section>
 
-<script src="./js/bundle.js"></script>
+<script src="/js/bundle.js"></script>
 </body>
 </html>

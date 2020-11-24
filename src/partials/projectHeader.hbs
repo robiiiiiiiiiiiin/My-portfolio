@@ -1,7 +1,7 @@
-<a href="/#sect_portfolio">&lt; back to portfolio</a>
+<a data-attr-t data-attr-t-interpolate href-t="/{{surroundWithCurlyBraces "global.addToUrl"}}#sect_portfolio" data-t>projects.backLabel</a>
 <div class="project_header">
-    <h1><span class="tilted_bg"><span class="bg">{{project.title}}</span></span></h1>
-    <p>Built in {{project.year}}</p>
+    <h1><span class="tilted_bg"><span class="bg" data-t>{{project.title}}</span></span></h1>
+    <p><span data-t>projects.builtIn</span> {{project.year}}</p>
     <div class="links">
         {{#if project.visit}}
             <a href="{{project.visit}}" target="blank">

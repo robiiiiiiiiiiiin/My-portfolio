@@ -26,9 +26,9 @@ module.exports = {
         test: /\.hbs$/,
         use: `handlebars-loader?helperDirs[]=${__dirname}/src/helpers`
       },
-      { 
-        test:/\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],     
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
         test: /\.s(a|c)ss$/,
@@ -57,7 +57,7 @@ module.exports = {
       // doc: https://github.com/sagold/handlebars-webpack-plugin
 
       entry: path.join(process.cwd(), "src", "html", "**", "*.hbs"),
-      output: path.join(process.cwd(), "dist", "[path]", "[name].html"),
+      output: path.join(process.cwd(), "to-translate", "[path]", "[name].html"),
 
       // Path to your partials
       // In your .hbs files, you must import partial with only firstParent/filename
@@ -87,6 +87,9 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: '../css/bundle.css'
-  })
+    }),
+    new webpack.optimize.LimitChunkCountPlugin({
+      maxChunks: 1
+    })
   ]
 };

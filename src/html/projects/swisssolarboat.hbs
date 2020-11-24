@@ -3,21 +3,23 @@
 <head>
     {{> partials/commonHeaders}}
     {{> partials/projectMetaTags data=data project=swisssolarboat 
-        desc="A WordPress website for the EPFL's association Swiss Solar Boat."
+        metaDesc="swisssolarboat.metaDesc"
     }}
-    <title>My projects - Swiss Solar Boat</title>
+    <title data-t>swisssolarboat.titleTag</title>
 </head>
 <body>
+    {{>partials/langBtn project=swisssolarboat}}
     <section id="sect_project">
         {{> partials/projectHeader data=data project=swisssolarboat}}
         <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p>I was a member of the communication team for the EPFL's Swiss Solar Boat Association. An other member and I worked on the website. It has been built with WordPress and Divi builder, except for the <a href="https://swisssolarboat.ch/en/team-en/" target="blank">Team</a> page.</p>
+        <p data-t>swisssolarboat.sentence1</p>
         <div class="mockups">
             <img src="../img/ssb-1.jpg" alt="Swiss Solar Boat screenshot" class="screenshot">
             <img src="../img/ssb-2.jpg" alt="Swiss Solar Boat screenshot" class="mobile screenshot">
         </div>
-        <h2><span class="tilted_bg"><span class="bg">Room for improvement</span></span></h2>
-        <p>We used WordPress because we didn't have the skills to develop it from scratch. But I don't particularly like WordPress anymore so I would develop it by hand if I had to re-do it</p>
+        <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
+        <p data-t>swisssolarboat.sentence2</p>
     </section>
+<script src="/js/bundle.js"></script>
 </body>
 </html>

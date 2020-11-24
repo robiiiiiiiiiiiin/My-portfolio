@@ -2,6 +2,7 @@
 
 $main-color: #007476;
 $black: #232323;
+$gutter: 5%;
 
 %flex-even {
     display: flex;
@@ -10,7 +11,7 @@ $black: #232323;
 }
 
 body {
-    margin: 30px 5%;
+    margin: 30px $gutter;
     padding: 0;
 
     font-family: 'Roboto', sans-serif;
@@ -49,6 +50,22 @@ body {
         display: inline-block;
         margin: 0;
     }
+
+    .langs_container{
+        text-align: right;
+        position: absolute;
+        right: $gutter;
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 2px 4px;
+        }
+        a.active, a:hover {
+            color: white;
+            background-color: $main-color;
+        }
+    }
 }
 
 
@@ -84,7 +101,7 @@ body {
     width: 100%;
     max-width: 400px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    margin: 0 10px 40px 10px;
+    margin: 0 1vw 40px 1vw;
 
     .img_container {
         position: relative;
@@ -266,5 +283,6 @@ body {
 .tag.handlebars {background-color: #f0692b;}
 .tag.oop        {background-color: #433D79;}
 .tag.handlebabelsasspack {background-color: #7155B1;}
+.tag.sharp      {background-color: #009900;}
 
 

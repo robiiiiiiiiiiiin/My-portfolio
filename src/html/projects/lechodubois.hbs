@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{> partials/commonHeaders}}
-    {{> partials/projectMetaTags data=data project=lechodubois 
-        metaDesc="lechodubois.metaDesc"
+    {{> partials/projectMetaTags data=data project=lechodubois
+    metaDesc="lechodubois.metaDesc"
     }}
     <title>My projects - My Portfolio</title>
 </head>
+
 <body>
-    {{>partials/langBtn project=lechodubois}}
-    <section id="sect_project">
-        {{> partials/projectHeader data=data project=lechodubois}}
-        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p data-t>lechodubois.sentence1</p>
-        <div class="mockups">
-            <img src="../img/lechodubois-1.jpg" alt="L'Echo du Bois screenshot" class="screenshot">
-            <img src="../img/lechodubois-4.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
-            <img src="../img/lechodubois-7.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
-            <img src="../img/lechodubois-2.jpg" alt="L'Echo du Bois screenshot" class="screenshot">
-            <img src="../img/lechodubois-5.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
-            <img src="../img/lechodubois-3.jpg" alt="L'Echo du Bois screenshot" class="screenshot">
-            <img src="../img/lechodubois-6.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
-        </div>
-    </section>
-<script src="/js/bundle.js"></script>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=lechodubois}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>lechodubois.sentence1</p>
+            <div class="mockups">
+                <img src="../img/lechodubois-1.jpg" alt="L'Echo du Bois screenshot" class="screenshot">
+                <img src="../img/lechodubois-4.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
+                <img src="../img/lechodubois-7.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
+                <img src="../img/lechodubois-2.jpg" alt="L'Echo du Bois screenshot" class="screenshot">
+                <img src="../img/lechodubois-5.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
+                <img src="../img/lechodubois-3.jpg" alt="L'Echo du Bois screenshot" class="screenshot">
+                <img src="../img/lechodubois-6.jpg" alt="L'Echo du Bois screenshot" class="screenshot mobile">
+            </div>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

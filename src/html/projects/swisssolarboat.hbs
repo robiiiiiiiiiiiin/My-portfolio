@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{> partials/commonHeaders}}
-    {{> partials/projectMetaTags data=data project=swisssolarboat 
-        metaDesc="swisssolarboat.metaDesc"
+    {{> partials/projectMetaTags data=data project=swisssolarboat
+    metaDesc="swisssolarboat.metaDesc"
     }}
     <title data-t>swisssolarboat.titleTag</title>
 </head>
+
 <body>
-    {{>partials/langBtn project=swisssolarboat}}
-    <section id="sect_project">
-        {{> partials/projectHeader data=data project=swisssolarboat}}
-        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p data-t>swisssolarboat.sentence1</p>
-        <div class="mockups">
-            <img src="../img/ssb-1.jpg" alt="Swiss Solar Boat screenshot" class="screenshot">
-            <img src="../img/ssb-2.jpg" alt="Swiss Solar Boat screenshot" class="mobile screenshot">
-        </div>
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
-        <p data-t>swisssolarboat.sentence2</p>
-    </section>
-<script src="/js/bundle.js"></script>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=swisssolarboat}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>swisssolarboat.sentence1</p>
+            <div class="mockups">
+                <img src="../img/ssb-1.jpg" alt="Swiss Solar Boat screenshot" class="screenshot">
+                <img src="../img/ssb-2.jpg" alt="Swiss Solar Boat screenshot" class="mobile screenshot">
+            </div>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
+            <p data-t>swisssolarboat.sentence2</p>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{> partials/commonHeaders}}
-    {{> partials/projectMetaTags data=data project=gryonbiketest 
-        metaDesc="gryonbiketest.metaDesc"
+    {{> partials/projectMetaTags data=data project=gryonbiketest
+    metaDesc="gryonbiketest.metaDesc"
     }}
     <title data-t>gryonbiketest.titleTag</title>
 </head>
+
 <body>
-    {{>partials/langBtn project=gryonbiketest}}
-    <section id="sect_project">
-        {{> partials/projectHeader data=data project=gryonbiketest}}
-        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p data-t>gryonbiketest.sentence1</p>
-        <p><span data-t>gryonbiketest.sentence2</span>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=gryonbiketest}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>gryonbiketest.sentence1</p>
+            <p><span data-t>gryonbiketest.sentence2</span>
             <ul>
                 <li>visiteur@gmail.com</li>
                 <li>exposant@gmail.com</li>
                 <li>admin@gmail.com</li>
             </ul>
             <span data-t>gryonbiketest.sentence3</span>
-        </p>
-        <div class="mockups">
-            <img src="../img/biketest-1.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
-            <img src="../img/biketest-2.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
-            <img src="../img/biketest-3.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
-            <img src="../img/biketest-4.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
-            <img src="../img/biketest-5.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
-            <img src="../img/biketest-6.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
-            <img src="../img/biketest-7.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
-        </div>
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.context</span></span></h2>
-        <p data-t>gryonbiketest.cont1</p>
-        <p data-t>gryonbiketest.cont2</p>
-        <p data-t>gryonbiketest.cont3</p>
+            </p>
+            <div class="mockups">
+                <img src="../img/biketest-1.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+                <img src="../img/biketest-2.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+                <img src="../img/biketest-3.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+                <img src="../img/biketest-4.jpg" alt="Gryon Bike Test screenshot" class="screenshot">
+                <img src="../img/biketest-5.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
+                <img src="../img/biketest-6.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
+                <img src="../img/biketest-7.jpg" alt="Gryon Bike Test screenshot" class="mobile screenshot">
+            </div>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.context</span></span></h2>
+            <p data-t>gryonbiketest.cont1</p>
+            <p data-t>gryonbiketest.cont2</p>
+            <p data-t>gryonbiketest.cont3</p>
 
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.func</span></span></h2>
-        <p data-t>gryonbiketest.func0</p>
-        <span class="ul_title" data-t>gryonbiketest.func1</span>
-        <ul>
-            <li data-t>gryonbiketest.func11</li>
-        </ul>
-        <span class="ul_title" data-t>gryonbiketest.func2</span>
-        <ul>
-            <li data-t>gryonbiketest.func21</li>
-            <li data-t>gryonbiketest.func22</li>
-        </ul>
-        <span class="ul_title" data-t>gryonbiketest.func3</span>
-        <ul>
-            <li data-t>gryonbiketest.func31</li>
-            <li data-t>gryonbiketest.func32</li>
-            <li data-t>gryonbiketest.func33</li>
-        </ul>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.func</span></span></h2>
+            <p data-t>gryonbiketest.func0</p>
+            <span class="ul_title" data-t>gryonbiketest.func1</span>
+            <ul>
+                <li data-t>gryonbiketest.func11</li>
+            </ul>
+            <span class="ul_title" data-t>gryonbiketest.func2</span>
+            <ul>
+                <li data-t>gryonbiketest.func21</li>
+                <li data-t>gryonbiketest.func22</li>
+            </ul>
+            <span class="ul_title" data-t>gryonbiketest.func3</span>
+            <ul>
+                <li data-t>gryonbiketest.func31</li>
+                <li data-t>gryonbiketest.func32</li>
+                <li data-t>gryonbiketest.func33</li>
+            </ul>
 
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
-        <p data-t>gryonbiketest.impr1</p>
-    </section>
-<script src="/js/bundle.js"></script>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
+            <p data-t>gryonbiketest.impr1</p>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

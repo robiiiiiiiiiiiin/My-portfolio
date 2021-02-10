@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{> partials/commonHeaders}}
-    {{> partials/projectMetaTags data=data project=theapologist 
-        metaDesc="theapologist.metaDesc"
+    {{> partials/projectMetaTags data=data project=theapologist
+    metaDesc="theapologist.metaDesc"
     }}
     <title data-t>theapologist.titleTag</title>
 </head>
+
 <body>
-    {{>partials/langBtn project=theapologist}}
-    <section id="sect_project">
-        {{> partials/projectHeader data=data project=theapologist}}
-        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p data-t>theapologist.sentence1</p>
-        <div class="mockups">
-            <img src="../img/theapologist-1.jpg" alt="The Apologist screenshot" class="screenshot">
-            <img src="../img/theapologist-2.jpg" alt="The Apologist screenshot" class="screenshot">
-        </div>
-</section>
-<script src="/js/bundle.js"></script>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=theapologist}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>theapologist.sentence1</p>
+            <div class="mockups">
+                <img src="../img/theapologist-1.jpg" alt="The Apologist screenshot" class="screenshot">
+                <img src="../img/theapologist-2.jpg" alt="The Apologist screenshot" class="screenshot">
+            </div>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

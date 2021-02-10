@@ -1,4 +1,7 @@
-<a data-attr-t data-attr-t-interpolate href-t="/{{surroundWithCurlyBraces "global.addToUrl"}}#sect_portfolio" data-t>projects.backLabel</a>
+<div class="top-links">
+    <a data-attr-t data-attr-t-interpolate href-t="/{{surroundWithCurlyBraces "global.addToUrl"}}#sect_portfolio" data-t>projects.backLabel</a>
+    {{>partials/langBtn project=project}}
+</div>
 <div class="project_header">
     <h1><span class="tilted_bg"><span class="bg" data-t>{{project.title}}</span></span></h1>
     <p><span data-t>projects.builtIn</span> {{project.year}}</p>

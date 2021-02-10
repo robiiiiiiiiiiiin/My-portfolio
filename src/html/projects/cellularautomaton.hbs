@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{> partials/commonHeaders}}
-    {{> partials/projectMetaTags data=data project=automaton 
-        metaDesc="automaton.metaDesc"
+    {{> partials/projectMetaTags data=data project=automaton
+    metaDesc="automaton.metaDesc"
     }}
     <title data-t>automaton.titleTag</title>
 </head>
+
 <body>
-    {{>partials/langBtn project=automaton}}
-    <section id="sect_project">
-        {{> partials/projectHeader data=data project=automaton}}
-        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p data-t>automaton.sentence1</p>
-        <p><span data-t>automaton.hint</span>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=automaton}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>automaton.sentence1</p>
+            <p><span data-t>automaton.hint</span>
             <ul>
                 <li data-t>automaton.hint1</li>
                 <li data-t>automaton.hint2</li>
                 <li data-t>automaton.hint3</li>
                 <li data-t>automaton.hint4</li>
             </ul>
-        </p>
-        <div class="mockups">
-            <img src="../img/automaton-1.jpg" alt="Cellular automaton screenshot" class="screenshot">
-            <img src="../img/automaton-2.jpg" alt="Cellular automaton screenshot" class="screenshot">
-        </div>
-    </section>
-<script src="/js/bundle.js"></script>
+            </p>
+            <div class="mockups">
+                <img src="../img/automaton-1.jpg" alt="Cellular automaton screenshot" class="screenshot">
+                <img src="../img/automaton-2.jpg" alt="Cellular automaton screenshot" class="screenshot">
+            </div>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

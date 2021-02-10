@@ -52,9 +52,7 @@ body {
     }
 
     .langs_container{
-        text-align: right;
-        position: absolute;
-        right: $gutter;
+        direction: rtl;
 
         a {
             text-decoration: none;
@@ -65,6 +63,10 @@ body {
             color: white;
             background-color: $main-color;
         }
+    }
+    .global-wrapper {
+        max-width: 1350px;
+        margin: auto;
     }
 }
 
@@ -205,6 +207,11 @@ body {
 }
 
 #sect_project {
+    .top-links {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .project_header {
         text-align: center;
 

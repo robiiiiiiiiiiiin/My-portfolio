@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{> partials/commonHeaders}}
-    {{> partials/projectMetaTags data=data project=mooderize 
-        metaDesc="mooderize.metaDesc"
+    {{> partials/projectMetaTags data=data project=mooderize
+    metaDesc="mooderize.metaDesc"
     }}
     <title data-t>mooderize.titleTag</title>
 </head>
+
 <body>
-    {{>partials/langBtn project=mooderize}}
-    <section id="sect_project">
-        {{> partials/projectHeader data=data project=mooderize}}
-        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p data-t>mooderize.sentence1</p>
-        <div class="mockups">
-            <img src="../img/mooderize-1.jpg" alt="mooderize screenshot" class="mobile screenshot">
-            <img src="../img/mooderize-2.jpg" alt="mooderize screenshot" class="mobile screenshot">
-            <img src="../img/mooderize-3.jpg" alt="mooderize screenshot" class="mobile screenshot">
-            <img src="../img/mooderize-4.jpg" alt="mooderize screenshot" class="mobile screenshot">
-            <img src="../img/mooderize-5.jpg" alt="mooderize screenshot" class="mobile screenshot">
-        </div>
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.goal</span></span></h2>
-        <p data-t>mooderize.goal1</p>
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.problemsSolutions</span></span></h2>
-        <p data-t>mooderize.ps1</p>
-        <p data-t>mooderize.ps2</p>
-        <p data-t>mooderize.ps3</p>
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
-        <p data-t>mooderize.impr1</p>
-    </section>
-<script src="/js/bundle.js"></script>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=mooderize}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>mooderize.sentence1</p>
+            <div class="mockups">
+                <img src="../img/mooderize-1.jpg" alt="mooderize screenshot" class="mobile screenshot">
+                <img src="../img/mooderize-2.jpg" alt="mooderize screenshot" class="mobile screenshot">
+                <img src="../img/mooderize-3.jpg" alt="mooderize screenshot" class="mobile screenshot">
+                <img src="../img/mooderize-4.jpg" alt="mooderize screenshot" class="mobile screenshot">
+                <img src="../img/mooderize-5.jpg" alt="mooderize screenshot" class="mobile screenshot">
+            </div>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.goal</span></span></h2>
+            <p data-t>mooderize.goal1</p>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.problemsSolutions</span></span></h2>
+            <p data-t>mooderize.ps1</p>
+            <p data-t>mooderize.ps2</p>
+            <p data-t>mooderize.ps3</p>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
+            <p data-t>mooderize.impr1</p>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

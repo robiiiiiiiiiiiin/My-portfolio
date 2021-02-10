@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{> partials/commonHeaders}}
-    {{> partials/projectMetaTags data=data project=myportfolio 
-        metaDesc="myportfolio.metaDesc"
+    {{> partials/projectMetaTags data=data project=myportfolio
+    metaDesc="myportfolio.metaDesc"
     }}
     <title>My projects - My Portfolio</title>
 </head>
+
 <body>
-    {{>partials/langBtn project=myportfolio}}
-    <section id="sect_project">
-        {{> partials/projectHeader data=data project=myportfolio}}
-        <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
-        <p data-t>myportfolio.sentence1</p>
-        <p data-t>myportfolio.sentence2</p>
-        <div class="mockups">
-            <img src="../img/myportfolio-1.jpg" alt="My portfolio screenshot" class="screenshot">
-            <img src="../img/myportfolio-2.jpg" alt="My portfolio screenshot" class="screenshot small">
-            <img src="../img/myportfolio-3.jpg" alt="My portfolio screenshot" class="screenshot small">
-        </div>
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.context</span></span></h2>
-        <p data-t>myportfolio.cont1</p>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=myportfolio}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>myportfolio.sentence1</p>
+            <p data-t>myportfolio.sentence2</p>
+            <div class="mockups">
+                <img src="../img/myportfolio-1.jpg" alt="My portfolio screenshot" class="screenshot">
+                <img src="../img/myportfolio-2.jpg" alt="My portfolio screenshot" class="screenshot small">
+                <img src="../img/myportfolio-3.jpg" alt="My portfolio screenshot" class="screenshot small">
+            </div>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.context</span></span></h2>
+            <p data-t>myportfolio.cont1</p>
 
-        <p data-t>myportfolio.cont2</p>
+            <p data-t>myportfolio.cont2</p>
 
-        <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
-        <p data-t>myportfolio.impr1</p>
-    </section>
-<script src="/js/bundle.js"></script>
+            <h2><span class="tilted_bg"><span class="bg" data-t>projects.RoomForImprovement</span></span></h2>
+            <p data-t>myportfolio.impr1</p>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

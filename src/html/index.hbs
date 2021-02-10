@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html data-attr-t lang-t="headers.lang">
+
 <head>
     {{> partials/commonHeaders}}
 
@@ -14,88 +15,103 @@
     <meta property='twitter:url' content='https://robinbecherraz.ch' />
 
     <title data-t>home.title</title>
-    <meta name="description" data-attr-t content-t="home.metaDesc"/>
+    <meta name="description" data-attr-t content-t="home.metaDesc" />
 </head>
+
 <body>
-    {{>partials/langBtn}}
-    <section id="sect_head">
-        <img src="/img/portrait.jpg" data-attr-t alt-t="home.portraitAlt">
-        <h1><span class="tilted_bg"><span class="bg">Robin</span></span><br>Bécherraz</h1>
-        <p data-t>home.catchPhrase1</p>
-        <p data-t>home.catchPhrase2</p>
-    </section>
+    <div class="global-wrapper">
+        {{>partials/langBtn}}
+        <section id="sect_head">
+            <img src="/img/portrait.jpg" data-attr-t alt-t="home.portraitAlt">
+            <h1><span class="tilted_bg"><span class="bg">Robin</span></span><br>Bécherraz</h1>
+            <p data-t>home.catchPhrase1</p>
+            <p data-t>home.catchPhrase2</p>
+        </section>
 
-    <section id="sect_about">
-        <h2><span class="tilted_bg"><span class="bg" data-t>home.aboutMe</span></span></h2>
-        <div class="content">
-            <h3 data-t>home.iLiveIn</h3>
-            <p data-t>home.whereILive</p>
-            <h3 data-t>home.wasBornIn</h3>
-            <p>1998</p>
-            <h3 data-t>home.iSpeak</h3>
-            <p data-t>home.whatISpeak</p>
-            <h3 data-t>home.education</h3>
-            <p data-t>home.educationContent</p>
-            <h3 data-t>home.myFavorites</h3>
-            <p data-t>home.myFavoritesContent</p>
-        </div>
-    </section>
+        <section id="sect_about">
+            <h2><span class="tilted_bg"><span class="bg" data-t>home.aboutMe</span></span></h2>
+            <div class="content">
+                <h3 data-t>home.iLiveIn</h3>
+                <p data-t>home.whereILive</p>
+                <h3 data-t>home.wasBornIn</h3>
+                <p>1998</p>
+                <h3 data-t>home.iSpeak</h3>
+                <p data-t>home.whatISpeak</p>
+                <h3 data-t>home.education</h3>
+                <p data-t>home.educationContent</p>
+                <h3 data-t>home.myFavorites</h3>
+                <p data-t>home.myFavoritesContent</p>
+            </div>
+        </section>
 
-    <section id="sect_skills">
-        <h2><span class="tilted_bg"><span class="bg" data-t>home.skills</span></span></h2>
-        <div class="content">
-            <div>
-                <h3>Frontend</h3>
-                <p>HTML5 CSS3 Sass JavaScript ES6 jQuery Handlebars Backbone.js D3.js PWA</p>
+        <section id="sect_skills">
+            <h2><span class="tilted_bg"><span class="bg" data-t>home.skills</span></span></h2>
+            <div class="content">
+                <div>
+                    <h3>Frontend</h3>
+                    <p>HTML5 CSS3 Sass JavaScript ES6 jQuery Handlebars Backbone.js D3.js PWA</p>
+                </div>
+                <div>
+                    <h3>Backend</h3>
+                    <p>PHP Laravel Node.js Linux<span class="nbsp">&nbsp;</span>servers DB<span
+                            class="nbsp">&nbsp;</span>modeling SQL REST</p>
+                </div>
+                <div>
+                    <h3 data-t>home.other</h3>
+                    <p>Git WordPress Webpack OOP SEO</p>
+                </div>
+                <div>
+                    <h3>Soft skills</h3>
+                    <p data-t>home.skillsContent</p>
+                </div>
             </div>
-            <div>
-                <h3>Backend</h3>
-                <p>PHP Laravel Node.js Linux<span class="nbsp">&nbsp;</span>servers DB<span class="nbsp">&nbsp;</span>modeling SQL REST</p>
-            </div>
-            <div>
-                <h3 data-t>home.other</h3>
-                <p>Git WordPress Webpack OOP SEO</p>
-            </div>
-            <div>
-                <h3>Soft skills</h3>
-                <p data-t>home.skillsContent</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="sect_portfolio">
-        <h2><span class="tilted_bg"><span class="bg">Portfolio</span></span></h2>
-        <div class="content">
+        <section id="sect_portfolio">
+            <h2><span class="tilted_bg"><span class="bg">Portfolio</span></span></h2>
+            <div class="content">
 
-            {{> partials/projects_list }}
+                {{> partials/projects_list }}
 
-        </div>
-    </section>
-    
-    <section id="sect_contact">
-        <h2><span class="tilted_bg"><span class="bg">Contact</span></span></h2>
-        <div class="content">
-            <div>
-                <a href="mailto:robinbecherraz2@hotmail.fr" target="blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.02 61.02"><path d="M30.51,0A30.51,30.51,0,1,0,61,30.51,30.51,30.51,0,0,0,30.51,0Zm14.3,37.08a10.63,10.63,0,0,1-8.2,3.59,3.7,3.7,0,0,1-2.6-.9,3.29,3.29,0,0,1-1.07-2.26,6.9,6.9,0,0,1-5.85,3.16,6.51,6.51,0,0,1-4.94-2.08,8.07,8.07,0,0,1-1.95-5.73,14,14,0,0,1,3.1-9C25.37,21.31,27.63,20,30.06,20c2.75,0,4.74.8,6,2.42l.44-1.89h3.39L37,33.34a15.22,15.22,0,0,0-.5,3.16c0,.91.35,1.37,1,1.37A6.78,6.78,0,0,0,43,35q2.3-2.9,2.29-8a11.24,11.24,0,0,0-3.77-8.7,13.9,13.9,0,0,0-9.75-3.43,15,15,0,0,0-11.49,4.88,17,17,0,0,0-4.51,12q0,6.87,4.32,10.67t12.1,3.8a19.44,19.44,0,0,0,8-1.48L41.57,47a23,23,0,0,1-9.37,1.83q-9,0-14.11-4.57T12.94,31.7a19.31,19.31,0,0,1,5.34-13.95,17.91,17.91,0,0,1,13.5-5.55q7.44,0,11.87,4.24a14.07,14.07,0,0,1,4.43,10.61Q48.08,33.5,44.81,37.08Z"/><path d="M30.33,22.81c-1.71,0-3.25,1-4.6,3.14a12.31,12.31,0,0,0-2,6.8q0,5.11,4.1,5.12a5.29,5.29,0,0,0,3.73-1.67,9,9,0,0,0,2.4-4.5l1.47-6.47A5.61,5.61,0,0,0,30.33,22.81Z"/></svg>
-                    <p>robinbecherraz2@hotmail.fr</p>
-                </a>
             </div>
-            <div>
-                <a href="https://github.com/robiiiiiiiiiiiin" target="blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.58 31.77"><path class="cls-1" d="M16.29,0a16.29,16.29,0,0,0-5.15,31.75c.82.15,1.11-.36,1.11-.79s0-1.41,0-2.77C7.7,29.18,6.74,26,6.74,26a4.36,4.36,0,0,0-1.81-2.39c-1.47-1,.12-1,.12-1a3.43,3.43,0,0,1,2.49,1.68,3.48,3.48,0,0,0,4.74,1.36,3.46,3.46,0,0,1,1-2.18c-3.62-.41-7.42-1.81-7.42-8a6.3,6.3,0,0,1,1.67-4.37,5.94,5.94,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.41,15.41,0,0,1,8.16,0c3.11-2.11,4.47-1.67,4.47-1.67A5.91,5.91,0,0,1,25,11.07a6.3,6.3,0,0,1,1.67,4.37c0,6.26-3.81,7.63-7.44,8a3.85,3.85,0,0,1,1.11,3c0,2.18,0,3.94,0,4.47s.29.94,1.12.78A16.29,16.29,0,0,0,16.29,0Z"/></svg>
-                    <p>robiiiiiiiiiiiin</p>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/robin-b%C3%A9cherraz-926322b7/" target="blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.02 61.02"><path d="M30.51,0A30.51,30.51,0,1,0,61,30.51,30.51,30.51,0,0,0,30.51,0ZM22.7,45.31H16.19V24.23H22.7Zm-3.28-24a3.82,3.82,0,1,1,3.86-3.79A3.82,3.82,0,0,1,19.42,21.33Zm27.95,24H40.78V34.47a10,10,0,0,0-.29-2.67A3.16,3.16,0,0,0,39.34,30a3,3,0,0,0-1.48-.52,4.9,4.9,0,0,0-2.18.26,3.17,3.17,0,0,0-1.85,2,8.73,8.73,0,0,0-.43,3c0,3.43,0,6.87,0,10.31v.27H26.88V24.23h6.25v2.85s0,.05.06,0,.1-.07.12-.12a6.58,6.58,0,0,1,3.93-3,9.68,9.68,0,0,1,4.54-.1,6.56,6.56,0,0,1,2.8,1.21,6.29,6.29,0,0,1,2,3,13,13,0,0,1,.69,4.05c0,1.77,0,3.55,0,5.32q0,3.79,0,7.59Z"/></svg>
-                    <p>Robin Bécherraz</p>
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-<script src="/js/bundle.js"></script>
+        <section id="sect_contact">
+            <h2><span class="tilted_bg"><span class="bg">Contact</span></span></h2>
+            <div class="content">
+                <div>
+                    <a href="mailto:robinbecherraz2@hotmail.fr" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.02 61.02">
+                            <path
+                                d="M30.51,0A30.51,30.51,0,1,0,61,30.51,30.51,30.51,0,0,0,30.51,0Zm14.3,37.08a10.63,10.63,0,0,1-8.2,3.59,3.7,3.7,0,0,1-2.6-.9,3.29,3.29,0,0,1-1.07-2.26,6.9,6.9,0,0,1-5.85,3.16,6.51,6.51,0,0,1-4.94-2.08,8.07,8.07,0,0,1-1.95-5.73,14,14,0,0,1,3.1-9C25.37,21.31,27.63,20,30.06,20c2.75,0,4.74.8,6,2.42l.44-1.89h3.39L37,33.34a15.22,15.22,0,0,0-.5,3.16c0,.91.35,1.37,1,1.37A6.78,6.78,0,0,0,43,35q2.3-2.9,2.29-8a11.24,11.24,0,0,0-3.77-8.7,13.9,13.9,0,0,0-9.75-3.43,15,15,0,0,0-11.49,4.88,17,17,0,0,0-4.51,12q0,6.87,4.32,10.67t12.1,3.8a19.44,19.44,0,0,0,8-1.48L41.57,47a23,23,0,0,1-9.37,1.83q-9,0-14.11-4.57T12.94,31.7a19.31,19.31,0,0,1,5.34-13.95,17.91,17.91,0,0,1,13.5-5.55q7.44,0,11.87,4.24a14.07,14.07,0,0,1,4.43,10.61Q48.08,33.5,44.81,37.08Z" />
+                            <path
+                                d="M30.33,22.81c-1.71,0-3.25,1-4.6,3.14a12.31,12.31,0,0,0-2,6.8q0,5.11,4.1,5.12a5.29,5.29,0,0,0,3.73-1.67,9,9,0,0,0,2.4-4.5l1.47-6.47A5.61,5.61,0,0,0,30.33,22.81Z" />
+                        </svg>
+                        <p>robinbecherraz2@hotmail.fr</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/robiiiiiiiiiiiin" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.58 31.77">
+                            <path class="cls-1"
+                                d="M16.29,0a16.29,16.29,0,0,0-5.15,31.75c.82.15,1.11-.36,1.11-.79s0-1.41,0-2.77C7.7,29.18,6.74,26,6.74,26a4.36,4.36,0,0,0-1.81-2.39c-1.47-1,.12-1,.12-1a3.43,3.43,0,0,1,2.49,1.68,3.48,3.48,0,0,0,4.74,1.36,3.46,3.46,0,0,1,1-2.18c-3.62-.41-7.42-1.81-7.42-8a6.3,6.3,0,0,1,1.67-4.37,5.94,5.94,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.41,15.41,0,0,1,8.16,0c3.11-2.11,4.47-1.67,4.47-1.67A5.91,5.91,0,0,1,25,11.07a6.3,6.3,0,0,1,1.67,4.37c0,6.26-3.81,7.63-7.44,8a3.85,3.85,0,0,1,1.11,3c0,2.18,0,3.94,0,4.47s.29.94,1.12.78A16.29,16.29,0,0,0,16.29,0Z" />
+                        </svg>
+                        <p>robiiiiiiiiiiiin</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/robin-b%C3%A9cherraz-926322b7/" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.02 61.02">
+                            <path
+                                d="M30.51,0A30.51,30.51,0,1,0,61,30.51,30.51,30.51,0,0,0,30.51,0ZM22.7,45.31H16.19V24.23H22.7Zm-3.28-24a3.82,3.82,0,1,1,3.86-3.79A3.82,3.82,0,0,1,19.42,21.33Zm27.95,24H40.78V34.47a10,10,0,0,0-.29-2.67A3.16,3.16,0,0,0,39.34,30a3,3,0,0,0-1.48-.52,4.9,4.9,0,0,0-2.18.26,3.17,3.17,0,0,0-1.85,2,8.73,8.73,0,0,0-.43,3c0,3.43,0,6.87,0,10.31v.27H26.88V24.23h6.25v2.85s0,.05.06,0,.1-.07.12-.12a6.58,6.58,0,0,1,3.93-3,9.68,9.68,0,0,1,4.54-.1,6.56,6.56,0,0,1,2.8,1.21,6.29,6.29,0,0,1,2,3,13,13,0,0,1,.69,4.05c0,1.77,0,3.55,0,5.32q0,3.79,0,7.59Z" />
+                        </svg>
+                        <p>Robin Bécherraz</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
 </body>
+
 </html>

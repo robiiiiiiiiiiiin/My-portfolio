@@ -4,6 +4,7 @@ fs.readFile('./dist/index.html', 'utf8', function (err,data) {
     return console.log(err);
   }
 
+  //Add the script to the default index.hmtl. Don't add it to the translated index.html
   var toPrepand = "<script src='/js/checkLang.js'></script>";
   var result = data.replace(/\<\/head>/g, toPrepand + '</head>');
 

@@ -242,7 +242,12 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: flex-end;
+        align-items: flex-start;
+        > .full-page {
+            margin: 10px 3% 10px 0;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+            max-width: 25vw;
+        }
         > img.screenshot {
             max-height: 356px;
             margin: 10px 3% 10px 0;
@@ -293,5 +298,8 @@ body {
 .tag.oop        {background-color: #433D79;}
 .tag.handlebabelsasspack {background-color: #7155B1;}
 .tag.sharp      {background-color: #009900;}
+.tag.gatsby     {background-color: #663399;}
+.tag.react      {background-color: #1f9bbd;}
+.tag.graphql    {background-color: #de33a6;}
 
 

@@ -22,7 +22,7 @@
         "short-tags": "Laravel,DB modeling,jQuery",
         "full-tags": "HTML,Laravel,PHP,DB modeling,jQuery",
         "img": "thumb_gryonbiketest.jpg",
-        "visit": "http://biketest.robinbecherraz.ch",
+        "visit": "http://gryon-bike-test.herokuapp.com/",
         "source": "https://github.com/JeanHerbaut/Arthrose_BikeTest"
     },
     "theapologist": {
@@ -86,5 +86,18 @@
         "full-tags": "HTML,CSS,SEO,Sharp,PHP,JavaScript",
         "img": "thumb_lechodubois.jpg",
         "visit": "https://lechodubois.ch/"
+    },
+    "golb": {
+        "filename": "golb.filename",
+        "enFilename": "golb.enFilename",
+        "frFilename": "golb.frFilename",
+        "title": "golb.title",
+        "desc": "golb.desc",
+        "year": "2021",
+        "short-tags": "Gatsby,React,CSS",
+        "full-tags": "HTML,CSS,Gatsby,React,GraphQL,JavaScript",
+        "img": "thumb_golb.jpg",
+        "visit": "https://golb.ch/",
+        "source": "https://github.com/robiiiiiiiiiiiin/my-blog"
     }
 }

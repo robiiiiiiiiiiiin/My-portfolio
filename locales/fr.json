@@ -25,7 +25,7 @@
         "education": "Formation",
         "educationContent": "CFC d'informaticien & bachelor en ingénierie des médias",
         "myFavorites": "Mon/ma ... favori/te",
-        "myFavoritesContent": "Film: Léon (1994), Série: Mr Robot, Groupe: Moon Hooch, Jeu vidéo: Skyrim, Sport: Esalade de bloc, Couleur: #AE009B",
+        "myFavoritesContent": "Film: Léon, Série: Mr Robot, Groupe: Moon Hooch, Jeu vidéo: Skyrim, Sport: Esalade de bloc, Couleur: #AE009B",
         "skills": "Compétences",
         "other": "Autre",
         "skillsContent": "Marketing<span class='nbsp'>&nbsp;</span>digital UX/UI Création<span class='nbsp'>&nbsp;</span>de<span class='nbsp'>&nbsp;</span>contenu<span class='nbsp'>&nbsp;</span>(suite<span class='nbsp'>&nbsp;</span>Adobe) Gestion<span class='nbsp'>&nbsp;</span>de<span class='nbsp'>&nbsp;</span>projet",
@@ -57,7 +57,7 @@
         "ps1": "Mon premier défi était de trouver une librairie permettant, au moins, d'appliquer des effets d'EQ et de reverb. Et il n'y avait pas tant d'options que ça... J'ai essayé <a href=\"https://github.com/belangeo/pyo\" target=\"blank\">Python PYO</a>, qui était un peu trop compliqué. J'ai également testé <a href=\"https://github.com/carlthome/python-audio-effects\" target=\"blank\">python-audio-effects</a>, et je ne me rappelle honnêtement plus pourquoi je ne l'ai pas utilisé... Mais mon choix final s'est porté sur la librairie <a href=\"https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API\">Web Audio API</a>. Cette solution a la particularité d'être full frontend.",
         "ps2": "Mon second problème, qui est directement lié au premier, est que la Web Audio API ne permet pas de créer un fichier télechargeable. On ne peut que streamer de l'audio. La seule solution que j'ai trouvé est d'utiliser la librairie <a href=\"https://github.com/mattdiamond/Recorderjs\" target=\"blank\">Recorderjs</a>. Le projet n'est plus maintenu, donc c'est plutôt risqué, mais c'est un petit module utilisé par pas mal de sites et je n'ai trouvé aucune autre solution.",
         "ps3": "Mon troisième challenge était de récupérer l'audio d'une vidéo YouTube à partir d'un lien. Apparemment YouTube n'a pas trop envie qu'on fasse ça donc c'est un peu plus compliqué que ce que je pensais. J'ai trouvé le module <a href=\"https://github.com/fent/node-ytdl\" target=\"blank\">node-ytdl</a> pour Node.js, qui permet de télécharger une vidéo YouTube en plusieurs formats. J'ai donc créé une petite API me permettant de récupérer le fichier avec une requête ajax.",
-        "impr1": "Je pense qu'utiliser une librairie backend pour le traitement audio pourrait être intéressant. Car sur mobile, le traitement est très long. Sinon, l'interface pourrait être grandement améliorée. Un autre défi que je me suis lancé était de n'utiliser que du JavaScript \"vanilla\", afin de voir si jQuery était vraiment si utile. Je me suis rendu compte qu'on pouvait tout faire en pure JS, mais ça rend le code assez long et sale selon moi. De plus, une librairie pour gérer la navigation one page n'aurait pas été de trop. Cette application était un peu une expérience, un bac à sable. Donc elle n'est pas forcément très bien finie / peaufinée."   
+        "impr1": "Je pense qu'utiliser une librairie backend pour le traitement audio pourrait être intéressant. Car sur mobile, le traitement est très long. Sinon, l'interface pourrait être grandement améliorée. Un autre défi que je me suis lancé était de n'utiliser que du JavaScript \"vanilla\". Mais je n'ai pas pris soin dès le début de mettre en place des routeurs donc la navigation est assez chaotique. Donc une librairie pour gérer la navigation one page n'aurait pas été de trop. Cette application était un peu une expérience, un bac à sable. Donc elle n'est pas forcément très bien finie / peaufinée."   
     },
     "gryonbiketest": {
         "filename": "gryonbiketest",
@@ -144,5 +144,15 @@
         "desc": "Site vitrine responsive et léger",
         "metaDesc": "Site vitrine responsive utilisant CSS Grid. Images optimisées avec Sharp. Travail attentif sur le SEO.",
         "sentence1": "J'ai designé et développé ce site pour un artisan sur bois de la région de Bulle. Une attention particulière a été portée sur le design responsive et le SEO. Les images sont automatiquement optimisées grâce à un script <a href=\"https://www.npmjs.com/package/sharp\" target=\"blank\">Sharp</a> les convertissant dans plusieurs tailles et dans les formats .jpg et .webm."
+    },
+    "golb": {
+        "filename": "golb",
+        "enFilename": "golb",
+        "frFilename": "golb",
+        "title": "GOLB",
+        "titleTag": "Mes Projets - GOLB",
+        "desc": "Blog tech personnel",
+        "metaDesc": "Blog tech développé avec le framework Gatsby",
+        "sentence1": "Ce site statique a été développé avec le framework <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a>. Je me suis basé sur les fonctionnalités du template <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> et y ai ajouté une fonctionnalité de filtrage par catégories, un espace commentaire utilisant <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, un système de pagination et une interface entièrement personnalisée."
     }
 }

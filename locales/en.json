@@ -25,7 +25,7 @@
         "education": "Education",
         "educationContent": "IT scientist CFC & media engineering bachelor's degree",
         "myFavorites": "My favorite ...",
-        "myFavoritesContent": "Movie: Léon (1994), TV show: Mr Robot, Band: Moon Hooch, Video game: Skyrim, Sport: bloc climbing, Colour: #AE009B",
+        "myFavoritesContent": "Movie: Léon, TV show: Mr Robot, Band: Moon Hooch, Video game: Skyrim, Sport: bloc climbing, Colour: #AE009B",
         "skills": "Skills",
         "other": "Other",
         "skillsContent": "Digital<span class='nbsp'>&nbsp;</span>marketing UX/UI Content<span class='nbsp'>&nbsp;</span>creation<span class='nbsp'>&nbsp;</span>(Adobe<span class='nbsp'>&nbsp;</span>suite) Project<span class='nbsp'>&nbsp;</span>management",
@@ -57,7 +57,7 @@
         "ps1": "My main problem was to find a library who offered, at least, basic EQ and reverb effects. I found out that there are only few reliable options. I tried <a href=\"https://github.com/belangeo/pyo\" target=\"blank\">Python PYO</a>, which was a bit too complicated, I also tried <a href=\"https://github.com/carlthome/python-audio-effects\" target=\"blank\">python-audio-effects</a>, but I honestly don't remember why I didn't use it. But my final choice went to the JavaScript <a href=\"https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API\">Web Audio API</a>. This solution has the particularity of being full frontend.",
         "ps2": "The second problem, which was linked to the first one, was that the Web Audio API doesn't provide the possibility to create a file from the modified song. You can stream the song only. The only solution I found is to use the <a href=\"https://github.com/mattdiamond/Recorderjs\" target=\"blank\">Recorderjs</a> library. It's unfortunately not maintained anymore, but I know that a lot of websites are using it and it's a small module so I went with it.",
         "ps3": "The third problem was to use a YouTube link as an audio source. YouTube is not helpful on this, as you can't use the audio from an embed YouTube video. I didn't find any online API to retrieve an audio file from a YouTube link, but I found multiple python and Node modules on GitHub and went for the <a href=\"https://github.com/fent/node-ytdl\" target=\"blank\">node-ytdl</a> module. I then built a very simple API using Express.js, just to retrieve the audio file using an ajax call.",
-        "impr1": "I think that using a backend library for the audio processing could be a good idea. Because the audio processing is very slow on mobile using Web Audio API. The UI and the visual aspect could be improved a lot. Also, I wanted to try to build the entire app using vanilla JavaScript to know if jQuery was still necessary in 2020. And according to me, it is. And more than that, a library like Redux would certainly help a lot to handle the navigation, which is a bit chaotic in JS. This app was kind of an experiment, so the overall code is not very clean."
+        "impr1": "I think that using a backend library for the audio processing could be a good idea. Because the audio processing is very slow on mobile using Web Audio API. The UI and the visual aspect could be improved a lot. Also, I wanted to try to build the entire app using only vanilla JavaScript. But I didn't set up proper routers from the beginning, so the navigation is a bit chaotic. A frontend library to handle the single page navigation could be great. This app was kind of an experiment, so the overall code is not very clean."
     },
     "gryonbiketest": {
         "filename": "gryonbiketest",
@@ -144,5 +144,15 @@
         "desc": "Responsive and lightweight static website",
         "metaDesc": "Responsive and lightweight static website using CSS Grid. The images are optimized with Sharp. SEO optimized",
         "sentence1": "I designed and built this website for a woodworker working around Bulle. A particular attention has been paid on responsive design and SEO. The images are optimized using a <a href=\"https://www.npmjs.com/package/sharp\" target=\"blank\">Sharp</a> script who automatically creates multiple image sizes and save them in both .jpg and .webm."
+    },
+    "golb": {
+        "filename": "golb",
+        "enFilename": "golb",
+        "frFilename": "golb",
+        "title": "GOLB",
+        "titleTag": "My Projects - GOLB",
+        "desc": "Personnal tech blog",
+        "metaDesc": "Tech blog built with Gatsby framework",
+        "sentence1": "I built this static website using <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a> framework. I started from the <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> template and added some functionalities like filtering by categories, a comment section using <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, a pagination system and a fully customized user interface."
     }
 }

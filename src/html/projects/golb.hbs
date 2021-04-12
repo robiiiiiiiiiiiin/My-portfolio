@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> partials/commonHeaders}}
+    {{> partials/projectMetaTags data=data project=golb
+    metaDesc="golb.metaDesc"
+    }}
+    <title>My projects - GOLB</title>
+</head>
+
+<body>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=golb}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>golb.sentence1</p>
+            <div class="mockups">
+                <img src="../img/golb-1.jpg" alt="GOLB screenshot" class="full-page">
+                <img src="../img/golb-2.jpg" alt="GOLB screenshot" class="full-page">
+            </div>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
+</body>
+
+</html>

@@ -4,7 +4,7 @@ const HandlebarsPlugin = require("handlebars-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: ['babel-polyfill', './src/app.js'],
+  entry: ['./src/app.js'],
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist/js')
@@ -12,16 +12,6 @@ module.exports = {
   watch: false,
   module: {
     rules: [
-      {
-        test: /\.m?js$/,
-        exclude: /(node_modules|bower_components)/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      },
       {
         test: /\.hbs$/,
         use: `handlebars-loader?helperDirs[]=${__dirname}/src/helpers`
@@ -49,10 +39,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery'
-    }),
     new HandlebarsPlugin({
       // doc: https://github.com/sagold/handlebars-webpack-plugin
 

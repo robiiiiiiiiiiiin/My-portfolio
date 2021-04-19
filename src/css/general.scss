@@ -75,6 +75,7 @@ body {
     text-align: center;
     img {
         width: 65%;
+        height: 65%;
         max-width: 280px;
     }
 }
@@ -111,6 +112,7 @@ body {
 
         img {
             width: 100%;
+            height: auto;
             display: block;
         }
         .overlay_container {

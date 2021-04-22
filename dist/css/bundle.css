@@ -219,7 +219,7 @@ body .global-wrapper {
 #sect_project .mockups {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 #sect_project .mockups > .full-page {
@@ -238,12 +238,18 @@ body .global-wrapper {
   max-width: 200px;
 }
 #sect_project .mockups > img.screenshot.small {
+  width: 90vw;
   max-height: 280px;
   max-width: 350px;
-  max-width: 90vw;
 }
 #sect_project .ul_title {
   font-weight: 700;
+}
+#sect_project ul {
+  line-height: 1.8em;
+}
+#sect_project ul ul ul {
+  list-style-type: disc;
 }
 
 .tag {
@@ -323,10 +329,6 @@ body .global-wrapper {
   background-color: #433D79;
 }
 
-.tag.handlebabelsasspack {
-  background-color: #7155B1;
-}
-
 .tag.sharp {
   background-color: #009900;
 }
@@ -341,4 +343,12 @@ body .global-wrapper {
 
 .tag.graphql {
   background-color: #de33a6;
+}
+
+.tag.vuejs {
+  background-color: #3fb27f;
+}
+
+.tag.algolia {
+  background-color: #5468ff;
 }

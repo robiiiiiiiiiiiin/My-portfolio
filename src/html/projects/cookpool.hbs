@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> partials/commonHeaders}}
+    {{> partials/projectMetaTags data=data project=cookpool
+    metaDesc="cookpool.metaDesc"
+    }}
+    <title>My projects - Cookpool</title>
+</head>
+
+<body>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=cookpool}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>cookpool.note</p>
+            <p data-t>cookpool.sentence1</p>
+            <p data-t>cookpool.func</p>
+            <div class="mockups">
+                <img src="../img/cookpool_0.jpg" alt="Cookpool screenshot" class="screenshot">
+                <img src="../img/cookpool_3.jpg" alt="Cookpool screenshot" class="screenshot">
+                <img src="../img/cookpool_5.jpg" alt="Cookpool screenshot" class="screenshot">
+                <img src="../img/cookpool_6.jpg" alt="Cookpool screenshot" class="screenshot">
+                <img src="../img/cookpool_1.jpg" alt="Cookpool screenshot" class="screenshot">
+                <img src="../img/cookpool_4.jpg" alt="Cookpool screenshot" class="screenshot">
+                <img src="../img/cookpool_2.jpg" alt="Cookpool screenshot" class="screenshot small">
+            </div>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
+</body>
+
+</html>

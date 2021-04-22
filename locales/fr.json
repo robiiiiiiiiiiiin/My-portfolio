@@ -7,7 +7,7 @@
         "french": "Français",
         "english": "Anglais"
     },
-    "headers" : {
+    "headers": {
         "lang": "fr"
     },
     "home": {
@@ -21,14 +21,18 @@
         "whereILive": "Suisse romande",
         "wasBornIn": "Je suis né en",
         "iSpeak": "Je parle",
-        "whatISpeak": "Français (langue maternelle) Anglais (B2 à l'oral et à l'ecrit, C1 en compréhension)",
+        "whatISpeak": "Français (langue maternelle) Anglais (B2 - C1)",
         "education": "Formation",
         "educationContent": "CFC d'informaticien & bachelor en ingénierie des médias",
         "myFavorites": "Mon/ma ... favori/te",
-        "myFavoritesContent": "Film: Léon, Série: Mr Robot, Groupe: Moon Hooch, Jeu vidéo: Skyrim, Sport: Esalade de bloc, Couleur: #AE009B",
+        "myFavoritesContent": "Film: Léon, Série: Mr Robot, Groupe: Moon Hooch, Jeu vidéo: Skyrim, Sport: Esalade de bloc",
+        "iLike": "J'aime",
+        "iLikeContent": "Le cinéma <span class='small'>bien que ce soit un grand mot</span>, La photo (checkez mon insta), La musique (j'en joue aussi à mes heures perdues), Bricoler (du bois, du métal, du tissu, de la peinture...), Grimper ()",
+        "wannabe": "Le dimanche, je suis",
+        "wannabeContent": "photographe, grimpeur, bricoleur, cinéphile",
         "skills": "Compétences",
         "other": "Autre",
-        "skillsContent": "Marketing<span class='nbsp'>&nbsp;</span>digital UX/UI Création<span class='nbsp'>&nbsp;</span>de<span class='nbsp'>&nbsp;</span>contenu<span class='nbsp'>&nbsp;</span>(suite<span class='nbsp'>&nbsp;</span>Adobe) Gestion<span class='nbsp'>&nbsp;</span>de<span class='nbsp'>&nbsp;</span>projet",
+        "skillsContent": "Marketing<span class='nbsp'>&nbsp;</span>digital UX/UI Création<span class='nbsp'>&nbsp;</span>de<span class='nbsp'>&nbsp;</span>contenu<span class='nbsp'>&nbsp;</span>(suite<span class='nbsp'>&nbsp;</span>Adobe)",
         "thumbAlt": "Miniature du projet",
         "unavailable": "indisponible",
         "visit": "visiter"
@@ -57,7 +61,7 @@
         "ps1": "Mon premier défi était de trouver une librairie permettant, au moins, d'appliquer des effets d'EQ et de reverb. Et il n'y avait pas tant d'options que ça... J'ai essayé <a href=\"https://github.com/belangeo/pyo\" target=\"blank\">Python PYO</a>, qui était un peu trop compliqué. J'ai également testé <a href=\"https://github.com/carlthome/python-audio-effects\" target=\"blank\">python-audio-effects</a>, et je ne me rappelle honnêtement plus pourquoi je ne l'ai pas utilisé... Mais mon choix final s'est porté sur la librairie <a href=\"https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API\">Web Audio API</a>. Cette solution a la particularité d'être full frontend.",
         "ps2": "Mon second problème, qui est directement lié au premier, est que la Web Audio API ne permet pas de créer un fichier télechargeable. On ne peut que streamer de l'audio. La seule solution que j'ai trouvé est d'utiliser la librairie <a href=\"https://github.com/mattdiamond/Recorderjs\" target=\"blank\">Recorderjs</a>. Le projet n'est plus maintenu, donc c'est plutôt risqué, mais c'est un petit module utilisé par pas mal de sites et je n'ai trouvé aucune autre solution.",
         "ps3": "Mon troisième challenge était de récupérer l'audio d'une vidéo YouTube à partir d'un lien. Apparemment YouTube n'a pas trop envie qu'on fasse ça donc c'est un peu plus compliqué que ce que je pensais. J'ai trouvé le module <a href=\"https://github.com/fent/node-ytdl\" target=\"blank\">node-ytdl</a> pour Node.js, qui permet de télécharger une vidéo YouTube en plusieurs formats. J'ai donc créé une petite API me permettant de récupérer le fichier avec une requête ajax.",
-        "impr1": "Je pense qu'utiliser une librairie backend pour le traitement audio pourrait être intéressant. Car sur mobile, le traitement est très long. Sinon, l'interface pourrait être grandement améliorée. Un autre défi que je me suis lancé était de n'utiliser que du JavaScript \"vanilla\". Mais je n'ai pas pris soin dès le début de mettre en place des routeurs donc la navigation est assez chaotique. Donc une librairie pour gérer la navigation one page n'aurait pas été de trop. Cette application était un peu une expérience, un bac à sable. Donc elle n'est pas forcément très bien finie / peaufinée."   
+        "impr1": "Je pense qu'utiliser une librairie backend pour le traitement audio pourrait être intéressant. Car sur mobile, le traitement est très long. Sinon, l'interface pourrait être grandement améliorée. Un autre défi que je me suis lancé était de n'utiliser que du JavaScript \"vanilla\". Mais je n'ai pas pris soin dès le début de mettre en place des routeurs donc la navigation est assez chaotique. Donc une librairie pour gérer la navigation one page n'aurait pas été de trop. Cette application était un peu une expérience, un bac à sable. Donc elle n'est pas forcément très bien finie / peaufinée."
     },
     "gryonbiketest": {
         "filename": "gryonbiketest",
@@ -133,7 +137,8 @@
         "sentence2": "J'ai utilisé <a href=\"https://handlebarsjs.com/\" target=\"blank\">Handlebars</a> et <a href=\"https://github.com/sagold/handlebars-webpack-plugin\" target=\"blank\">handlebars-webpack-plugin</a> afin de pouvoir créer des template HTML compilés lors du build de Webpack.  Ainsi, les miniatures des projets de mon portfolio sont générées automatiquement à partir d'un fichier json",
         "cont1": "Je n'avais pas beaucoup de temps pour développer ce site, et je voulais qu'il soit évolutif afin de pouvoir ajouter mes futurs projets facilement. J'avais déjà utilisé Handlebars pour créer des template dynamiquement générés avec JavaScript. Mais pour ce projet, je voulais fournir des pages statiques au client.",
         "cont2": "J'ai trouvé le plugin <a href=\"https://github.com/sagold/handlebars-webpack-plugin\" target=\"blank\">handlebars-webpack-plugin</a>, qui était parfaitement adapté à mon besoin. Je l'ai donc ajouté à ma config Webpack usuelle. J'ai également ajouté Sass que je n'avais encore jamais utilisé (et ce fut une grande révélation). À partir de cette config, j'ai créé <a href=\"https://github.com/robiiiiiiiiiiiin/HandleBabelSassPack\" target=\"blank\">ce setup</a> de développement frontend que je mets à jour régulièrement avec de nouveaux outils, notament d'automatisation.",
-        "impr1": "Il faudrait que je trouve un outil pour automatiser l'optimisation des images, afin de les convertir en .webp et de générer automatiquement plusieurs résolutions de la même image"
+        "impr1": "Il faudrait que je trouve un outil pour automatiser l'optimisation des images, afin de les convertir en .webp et de générer automatiquement plusieurs résolutions de la même image",
+        "impr2": "Edit: Après avoir essayé de réinventer la roue en combinant Handlebars, Babel, Sass, Sharp et d'autres outils, je me suis penché sur les générateurs de sites statiques comme Gatsby. Donc si je devais refaire ce site, je le referai avec Gatsby."
     },
     "lechodubois": {
         "filename": "lechodubois",
@@ -154,5 +159,17 @@
         "desc": "Blog tech personnel",
         "metaDesc": "Blog tech développé avec le framework Gatsby",
         "sentence1": "Ce site statique a été développé avec le framework <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a>. Je me suis basé sur les fonctionnalités du template <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> et y ai ajouté une fonctionnalité de filtrage par catégories, un espace commentaire utilisant <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, un système de pagination et une interface entièrement personnalisée."
+    },
+    "cookpool": {
+        "filename": "cookpool",
+        "enFilename": "cookpool",
+        "frFilename": "cookpool",
+        "title": "Cookpool",
+        "titleTag": "Mes Projets - Cookpool",
+        "desc": "Réseau social de cuisine",
+        "metaDesc": "Réseau social de recettes de cuisine développé avec Laravel, Vue.js et Algolia",
+        "note": "Note: le projet est en cours de finalisation. La version en ligne n'est donc pas encore la nouvelle version sur laquelle j'ai travaillé",
+        "sentence1": "Mon travail a consisté à ajouter de nouvelles fonctionnalité au site, alors que celui-ci était déjà en production. Voici les nouvelles fonctionnalités que j'ai ajouté au site:",
+        "func": "<ul><li>Refonte de la page d'accueil<ul><li>Affichage des éléments les plus populaires<ul> <li>Recettes et commentaires les plus likées</li> <li>Utilisateurs les plus actifs</li> <li>Derniers livres de cuisine publiés</li> </ul> </li> <li>Affichage du fil d'actualité. Affiche les dernières activités des utilisateurs suivis.</li> <li>Affichage des 10 mots-clés les plus recherchés</li> </ul> </li> <li>Fonctionnalité de recherche <ul> <li>Recherche et filtrage effectué avec Algolia</li> <li>Recherche effectuée sur tous les éléments du site (recettes, utilisateurs, commentaires, livres de cuisine, étapes d'une recette)</li> <li>Autocomplétion sur le champ de recherche</li> <li>Pagination propre à chaque élément</li> <li>Multiples filtres de recherche <ul> <li>Plusieurs sélections multiples de tags classés par catégories</li> <li>Plusieurs sliders de valeurs minimum - maximum</li> </ul> </li> </ul> </li> </ul>"
     }
 }

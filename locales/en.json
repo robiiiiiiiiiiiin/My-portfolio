@@ -21,14 +21,16 @@
         "whereILive": "Romandy Switzerland",
         "wasBornIn": "I was born in",
         "iSpeak": "I speak",
-        "whatISpeak": "French (mother tongue) English (speakink/writing B2, I understand C1)",
+        "whatISpeak": "French (mother tongue) English (B2 - C1)",
         "education": "Education",
         "educationContent": "IT scientist CFC & media engineering bachelor's degree",
         "myFavorites": "My favorite ...",
-        "myFavoritesContent": "Movie: Léon, TV show: Mr Robot, Band: Moon Hooch, Video game: Skyrim, Sport: bloc climbing, Colour: #AE009B",
+        "myFavoritesContent": "Movie: Léon, TV show: Mr Robot, Band: Moon Hooch, Video game: Skyrim, Sport: bloc climbing",
+        "wannabe": "Wannabe",
+        "wannabeContent": "photographer, climber, handcrafter, moviegoer",
         "skills": "Skills",
         "other": "Other",
-        "skillsContent": "Digital<span class='nbsp'>&nbsp;</span>marketing UX/UI Content<span class='nbsp'>&nbsp;</span>creation<span class='nbsp'>&nbsp;</span>(Adobe<span class='nbsp'>&nbsp;</span>suite) Project<span class='nbsp'>&nbsp;</span>management",
+        "skillsContent": "Digital<span class='nbsp'>&nbsp;</span>marketing UX/UI Content<span class='nbsp'>&nbsp;</span>creation<span class='nbsp'>&nbsp;</span>(Adobe<span class='nbsp'>&nbsp;</span>suite)",
         "thumbAlt": "Project's thumbnail",
         "unavailable": "unavailable",
         "visit": "visit"
@@ -133,7 +135,8 @@
         "sentence2": "I used <a href=\"https://handlebarsjs.com/\" target=\"blank\">Handlebars</a> and <a href=\"https://github.com/sagold/handlebars-webpack-plugin\" target=\"blank\">handlebars-webpack-plugin</a> to automate the generation of the projects' thumbnails and the projets pages' header from a json file.",
         "cont1": "I hadn't much time to build this website and I wanted it to be evolutive; I wanted to be able to add my future projects easily. I had already used Handlebars templating in an SPA project, where templates were dinamically generated in JS. But here, I wanted to use it for development and serve a static page to the client.",
         "cont2": "I found the <a href=\"https://github.com/sagold/handlebars-webpack-plugin\" target=\"blank\">handlebars-webpack-plugin</a>, which was perfectly suited for my needs. I added it to my usual Webpack config. I also added Sass, which I had never used but fell in &lt;3 with. With that config, I created a frontend development environment setup that you can find <a href=\"https://github.com/robiiiiiiiiiiiin/HandleBabelSassPack\" target=\"blank\">here</a>. I will probably re-use that setup for future projects.",
-        "impr1": "I should add a tool to automate image optimisation, like converting them to .webp and serving multiple resolutions."
+        "impr1": "I should add a tool to automate image optimisation, like converting them to .webp and serving multiple resolutions.",
+        "impr2": "Edit: After trying to reinvent the wheel by combining Handlebars, Babel, Sass, Sharp and other tools, I learned to use static site generators like Gatsby. So if I had to build this website again, I would use Gatsby."
     },
     "lechodubois": {
         "filename": "lechodubois",
@@ -154,5 +157,17 @@
         "desc": "Personnal tech blog",
         "metaDesc": "Tech blog built with Gatsby framework",
         "sentence1": "I built this static website using <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a> framework. I started from the <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> template and added some functionalities like filtering by categories, a comment section using <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, a pagination system and a fully customized user interface."
+    },
+    "cookpool": {
+        "filename": "cookpool",
+        "enFilename": "cookpool",
+        "frFilename": "cookpool",
+        "title": "Cookpool",
+        "titleTag": "My Projects - Cookpool",
+        "desc": "Cooking social network",
+        "metaDesc": "Social network for sharing cooking recipes built with Laravel, Vue.js and Algolia",
+        "note": "Note: the project is currently being finalised. The online version is therefore not yet the new version I have been working on.",
+        "sentence1": "My job was to add new functionalities to the website, while it was already in production. Here are the new features I added:",
+        "func": "<ul> <li>Home page redesign<ul> <li>Display of most popular items<ul> <li>Most liked recipes and comments</li> <li>Most active users</li> <li>Latest published cookbooks</li> </ul> </li> <li>Display of news feed. Displays the latest activities of followed users. </li> <li>Display of the 10 most searched keywords</li> </ul> </li> <li>Searching functionality <ul> <li>Searching and filtering performed with Algolia</li> <li>Search performed on all website elements (recipes, users, comments, cookbooks, recipes steps)</li> <li>Autocomplete on search bar</li> <li>Pagination specific to each element</li> <li>Multiple search filters <ul> <li>Select multiple tags classified by categories</li> <li>Multiple sliders of minimum - maximum values</li> </ul> </li> </ul> </li> </ul>"
     }
 }

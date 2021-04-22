@@ -69,7 +69,7 @@
         "title": "myportfolio.title",
         "desc": "myportfolio.desc",
         "year": "2020",
-        "short-tags": "Sass,Webpack,HandleBabelSassPack",
+        "short-tags": "Sass,Webpack,Handlebars",
         "full-tags": "HTML,CSS,Sass,Webpack,Handlebars",
         "img": "thumb_myportfolio.jpg",
         "visit": "https://robinbecherraz.ch/",
@@ -99,5 +99,17 @@
         "img": "thumb_golb.jpg",
         "visit": "https://golb.ch/",
         "source": "https://github.com/robiiiiiiiiiiiin/my-blog"
+    },
+    "cookpool": {
+        "filename": "cookpool.filename",
+        "enFilename": "cookpool.enFilename",
+        "frFilename": "cookpool.frFilename",
+        "title": "cookpool.title",
+        "desc": "cookpool.desc",
+        "year": "2021",
+        "short-tags": "Laravel,Vue.js,Algolia",
+        "full-tags": "Laravel,Vue.js,Algolia,CSS,JavaScript,DB modeling",
+        "img": "thumb_cookpool.jpg",
+        "visit": "https://cookpool.ch/"
     }
 }

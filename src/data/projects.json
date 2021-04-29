@@ -44,8 +44,8 @@
         "title": "automaton.title",
         "desc": "automaton.desc",
         "year": "2018",
-        "short-tags": "jQuery,Canvas,OOP",
-        "full-tags": "jQuery,Canvas,OOP",
+        "short-tags": "OOP,jQuery,Canvas",
+        "full-tags": "OOP,jQuery,Canvas",
         "img": "thumb_automaton.jpg",
         "visit": "http://automaton.surge.sh/",
         "source": "https://github.com/robiiiiiiiiiiiin/Cellular-Automaton"
@@ -69,7 +69,7 @@
         "title": "myportfolio.title",
         "desc": "myportfolio.desc",
         "year": "2020",
-        "short-tags": "Sass,Webpack,Handlebars",
+        "short-tags": "Handlebars,Webpack,Sass",
         "full-tags": "HTML,CSS,Sass,Webpack,Handlebars",
         "img": "thumb_myportfolio.jpg",
         "visit": "https://robinbecherraz.ch/",
@@ -94,7 +94,7 @@
         "title": "golb.title",
         "desc": "golb.desc",
         "year": "2021",
-        "short-tags": "Gatsby,React,CSS",
+        "short-tags": "Jamstack,Gatsby,CSS",
         "full-tags": "HTML,CSS,Gatsby,React,GraphQL,JavaScript",
         "img": "thumb_golb.jpg",
         "visit": "https://golb.ch/",
@@ -108,8 +108,21 @@
         "desc": "cookpool.desc",
         "year": "2021",
         "short-tags": "Laravel,Vue.js,Algolia",
-        "full-tags": "Laravel,Vue.js,Algolia,CSS,JavaScript,DB modeling",
+        "full-tags": "Laravel,Vue.js,Algolia,CSS,JavaScript,jQueryUI,select2,DB modeling",
         "img": "thumb_cookpool.jpg",
         "visit": "https://cookpool.ch/"
+    },
+    "duckhuntrevenge": {
+        "filename": "duckhuntrevenge.filename",
+        "enFilename": "duckhuntrevenge.enFilename",
+        "frFilename": "duckhuntrevenge.frFilename",
+        "title": "duckhuntrevenge.title",
+        "desc": "duckhuntrevenge.desc",
+        "year": "2021",
+        "short-tags": "A-Frame,Three.js",
+        "full-tags": "A-Frame,Three.js,JavaScript",
+        "img": "thumb_duckhuntrevenge_3.jpg",
+        "source": "https://github.com/robiiiiiiiiiiiin/duck-hunt-revenge",
+        "visit": "https://duckhuntrevenge.surge.sh/"
     }
 }

@@ -48,12 +48,14 @@
                         <span class="tag algolia">Algolia</span>
                         <span class="tag css">CSS</span>
                         <span class="tag javascript">JavaScript</span>
+                        <span class="tag jqueryui">jQueryUI</span>
+                        <span class="tag select2">select2</span>
                         <span class="tag dbmodeling">DB modeling</span>
                 </div>
             </div>            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
             <p>Note: the project is currently being finalised. The online version is therefore not yet the new version I have been working on.</p>
             <p>My job was to add new functionalities to the website, while it was already in production. Here are the new features I added:</p>
-            <p><ul> <li>Home page redesign<ul> <li>Display of most popular items<ul> <li>Most liked recipes and comments</li> <li>Most active users</li> <li>Latest published cookbooks</li> </ul> </li> <li>Display of news feed. Displays the latest activities of followed users. </li> <li>Display of the 10 most searched keywords</li> </ul> </li> <li>Searching functionality <ul> <li>Searching and filtering performed with Algolia</li> <li>Search performed on all website elements (recipes, users, comments, cookbooks, recipes steps)</li> <li>Autocomplete on search bar</li> <li>Pagination specific to each element</li> <li>Multiple search filters <ul> <li>Select multiple tags classified by categories</li> <li>Multiple sliders of minimum - maximum values</li> </ul> </li> </ul> </li> </ul></p>
+            <p><ul> <li>Home page redesign<ul> <li>Display of most popular items<ul> <li>Most liked recipes and comments</li> <li>Most active users</li> <li>Latest published cookbooks</li> </ul> </li> <li>Display of news feed. Displays the latest activities of followed users. </li> <li>Display of the 10 most searched keywords</li> </ul> </li> <li>Searching functionality <ul> <li>Searching and filtering performed with Algolia</li> <li>Search performed on all website ressources (recipes, users, comments, cookbooks, recipes steps)</li> <li>Autocomplete on search bar</li> <li>Pagination specific to each ressource</li> <li>Multiple search filters <ul> <li>Select multiple tags classified by categories</li> <li>Multiple sliders of minimum - maximum values</li> </ul> </li> </ul> </li> </ul></p>
             <div class="mockups">
                 <img src="..\../../img/cookpool_0.jpg" alt="Cookpool screenshot" class="screenshot">
                 <img src="..\../../img/cookpool_3.jpg" alt="Cookpool screenshot" class="screenshot">
@@ -63,6 +65,10 @@
                 <img src="..\../../img/cookpool_4.jpg" alt="Cookpool screenshot" class="screenshot">
                 <img src="..\../../img/cookpool_2.jpg" alt="Cookpool screenshot" class="screenshot small">
             </div>
+            <h2><span class="tilted_bg"><span class="bg">Challenges</span></span></h2>
+            <p>This project presented many technical challenges. I had to work on a code that had no documentation and couldn't contact the author. I therefore had to go through reverse engineering phases on several occasions. Moreover, I had never used Vue.js and Algolia before this project, so it allowed me to develop my skills significantly. Finally, as the website was already in production, my modifications, especially on the database, should not alter the website and the current data.</p>
+            <h2><span class="tilted_bg"><span class="bg">Room for improvement</span></span></h2>
+            <p>The search with Algolia is executed from the backend. This has some advantages, such as greater flexibility. However, it has the disadvantage of being much slower than a search performed on the frontend. Using Algolia's InstantSearch.js library could allow a much faster search.</p>
         </section>
     </div>
     <script src="/js/bundle.js"></script>

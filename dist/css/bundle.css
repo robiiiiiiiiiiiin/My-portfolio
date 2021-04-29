@@ -222,7 +222,7 @@ body .global-wrapper {
   justify-content: flex-start;
   align-items: flex-start;
 }
-#sect_project .mockups > .full-page {
+#sect_project .mockups > img.full-page {
   margin: 10px 3% 10px 0;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
   max-width: 25vw;
@@ -241,6 +241,16 @@ body .global-wrapper {
   width: 90vw;
   max-height: 280px;
   max-width: 350px;
+}
+#sect_project .mockups > img.wide {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 520px) {
+  #sect_project .mockups > img.wide {
+    max-width: 47%;
+    min-width: 450px;
+  }
 }
 #sect_project .ul_title {
   font-weight: 700;
@@ -309,6 +319,10 @@ body .global-wrapper {
   background-color: #fb9c35;
 }
 
+.tag.jqueryui {
+  background-color: #b24926;
+}
+
 .tag.laravel {
   background-color: #ff2d20;
 }
@@ -351,4 +365,20 @@ body .global-wrapper {
 
 .tag.algolia {
   background-color: #5468ff;
+}
+
+.tag.select2 {
+  background-color: #1694ca;
+}
+
+.tag.jamstack {
+  background-color: #b80060;
+}
+
+.tag.a-frame {
+  background-color: #ef2d5e;
+}
+
+.tag.threejs {
+  background-color: #000000;
 }

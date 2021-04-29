@@ -245,7 +245,7 @@ body {
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
-        > .full-page {
+        > img.full-page {
             margin: 10px 3% 10px 0;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
             max-width: 25vw;
@@ -264,6 +264,14 @@ body {
             width: 90vw;
             max-height: 280px;
             max-width: 350px;
+        }
+        > img.wide {
+            margin-left: auto;
+            margin-right: auto;
+            @media screen and (min-width: 520px) {
+                max-width: 47%;
+                min-width: 450px;
+            };
         }
     }
     .ul_title { font-weight: 700;}
@@ -299,6 +307,7 @@ body {
 .tag.backbone   {background-color: #9EB600;}
 .tag.dbmodeling {background-color: #2BA77E;}
 .tag.jquery     {background-color :#fb9c35;}
+.tag.jqueryui   {background-color :#b24926;}
 .tag.laravel    {background-color: #ff2d20;}
 .tag.sass       {background-color: #c76395;}
 .tag.webpack    {background-color: #1b74ba;}
@@ -310,5 +319,9 @@ body {
 .tag.graphql    {background-color: #de33a6;}
 .tag.vuejs      {background-color: #3fb27f;}
 .tag.algolia    {background-color: #5468ff;}
+.tag.select2    {background-color: #1694ca;}
+.tag.jamstack   {background-color: #b80060;}
+.tag.a-frame    {background-color: #ef2d5e;}
+.tag.threejs    {background-color: #000000;}
 
 

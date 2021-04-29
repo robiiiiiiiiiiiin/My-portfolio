@@ -168,6 +168,20 @@
         "metaDesc": "Social network for sharing cooking recipes built with Laravel, Vue.js and Algolia",
         "note": "Note: the project is currently being finalised. The online version is therefore not yet the new version I have been working on.",
         "sentence1": "My job was to add new functionalities to the website, while it was already in production. Here are the new features I added:",
-        "func": "<ul> <li>Home page redesign<ul> <li>Display of most popular items<ul> <li>Most liked recipes and comments</li> <li>Most active users</li> <li>Latest published cookbooks</li> </ul> </li> <li>Display of news feed. Displays the latest activities of followed users. </li> <li>Display of the 10 most searched keywords</li> </ul> </li> <li>Searching functionality <ul> <li>Searching and filtering performed with Algolia</li> <li>Search performed on all website elements (recipes, users, comments, cookbooks, recipes steps)</li> <li>Autocomplete on search bar</li> <li>Pagination specific to each element</li> <li>Multiple search filters <ul> <li>Select multiple tags classified by categories</li> <li>Multiple sliders of minimum - maximum values</li> </ul> </li> </ul> </li> </ul>"
+        "func": "<ul> <li>Home page redesign<ul> <li>Display of most popular items<ul> <li>Most liked recipes and comments</li> <li>Most active users</li> <li>Latest published cookbooks</li> </ul> </li> <li>Display of news feed. Displays the latest activities of followed users. </li> <li>Display of the 10 most searched keywords</li> </ul> </li> <li>Searching functionality <ul> <li>Searching and filtering performed with Algolia</li> <li>Search performed on all website ressources (recipes, users, comments, cookbooks, recipes steps)</li> <li>Autocomplete on search bar</li> <li>Pagination specific to each ressource</li> <li>Multiple search filters <ul> <li>Select multiple tags classified by categories</li> <li>Multiple sliders of minimum - maximum values</li> </ul> </li> </ul> </li> </ul>",
+        "challenges": "This project presented many technical challenges. I had to work on a code that had no documentation and couldn't contact the author. I therefore had to go through reverse engineering phases on several occasions. Moreover, I had never used Vue.js and Algolia before this project, so it allowed me to develop my skills significantly. Finally, as the website was already in production, my modifications, especially on the database, should not alter the website and the current data.",
+        "impr": "The search with Algolia is executed from the backend. This has some advantages, such as greater flexibility. However, it has the disadvantage of being much slower than a search performed on the frontend. Using Algolia's InstantSearch.js library could allow a much faster search."
+    },
+    "duckhuntrevenge": {
+        "filename": "duckhuntrevenge",
+        "enFilename": "duckhuntrevenge",
+        "frFilename": "duckhuntrevenge",
+        "title": "Duck Hunt Revenge",
+        "titleTag": "My Projects - Duck Hunt Revenge",
+        "desc": "Web game in VR",
+        "metaDesc": "Web game playable in VR, on PC and on mobile",
+        "sentence1": "This website has been developed over two weeks during a virtual reality development course. It uses the A-Frame framework on which I wrote an article on my blog. The game is playable on any browser, whether it's on VR hardware, PC or mobile. Chrome or Edge are highly recommended for performance purposes with WebXR.",
+        "challenges1": "The biggest technical challenge was to optimise the graphical performances. The number of polygons to be displayed can quickly increase and cause the browser to lag. I had to correctly manage the different graphic and sound assets and not to do too many operations on each frame.",
+        "challenges2": "The second challenge was the UX. Firstly, VR experiences can easily cause motion sickness. So I had to create a game design that was enjoyable to play in VR. Secondly, I wanted the game to be playable on as many devices as possible. So I had to make sure that the interactions could be done with controllers as well as with a mouse or a smartphone."
     }
 }

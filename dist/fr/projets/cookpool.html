@@ -48,12 +48,14 @@
                         <span class="tag algolia">Algolia</span>
                         <span class="tag css">CSS</span>
                         <span class="tag javascript">JavaScript</span>
+                        <span class="tag jqueryui">jQueryUI</span>
+                        <span class="tag select2">select2</span>
                         <span class="tag dbmodeling">DB modeling</span>
                 </div>
             </div>            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
             <p>Note: le projet est en cours de finalisation. La version en ligne n'est donc pas encore la nouvelle version sur laquelle j'ai travaillé</p>
             <p>Mon travail a consisté à ajouter de nouvelles fonctionnalité au site, alors que celui-ci était déjà en production. Voici les nouvelles fonctionnalités que j'ai ajouté au site:</p>
-            <p><ul><li>Refonte de la page d'accueil<ul><li>Affichage des éléments les plus populaires<ul> <li>Recettes et commentaires les plus likées</li> <li>Utilisateurs les plus actifs</li> <li>Derniers livres de cuisine publiés</li> </ul> </li> <li>Affichage du fil d'actualité. Affiche les dernières activités des utilisateurs suivis.</li> <li>Affichage des 10 mots-clés les plus recherchés</li> </ul> </li> <li>Fonctionnalité de recherche <ul> <li>Recherche et filtrage effectué avec Algolia</li> <li>Recherche effectuée sur tous les éléments du site (recettes, utilisateurs, commentaires, livres de cuisine, étapes d'une recette)</li> <li>Autocomplétion sur le champ de recherche</li> <li>Pagination propre à chaque élément</li> <li>Multiples filtres de recherche <ul> <li>Plusieurs sélections multiples de tags classés par catégories</li> <li>Plusieurs sliders de valeurs minimum - maximum</li> </ul> </li> </ul> </li> </ul></p>
+            <p><ul><li>Refonte de la page d'accueil<ul><li>Affichage des ressources les plus populaires<ul> <li>Recettes et commentaires les plus likées</li> <li>Utilisateurs les plus actifs</li> <li>Derniers livres de cuisine publiés</li> </ul> </li> <li>Affichage du fil d'actualité. Affiche les dernières activités des utilisateurs suivis.</li> <li>Affichage des 10 mots-clés les plus recherchés</li> </ul> </li> <li>Fonctionnalité de recherche <ul> <li>Recherche et filtrage effectué avec Algolia</li> <li>Recherche effectuée sur toutes les ressources du site (recettes, utilisateurs, commentaires, livres de cuisine, étapes d'une recette)</li> <li>Autocomplétion sur le champ de recherche</li> <li>Pagination propre à chaque ressource</li> <li>Multiples filtres de recherche <ul> <li>Plusieurs sélections multiples de tags classés par catégories</li> <li>Plusieurs sliders de valeurs minimum - maximum</li> </ul> </li> </ul> </li> </ul></p>
             <div class="mockups">
                 <img src="../../img/cookpool_0.jpg" alt="Cookpool screenshot" class="screenshot">
                 <img src="../../img/cookpool_3.jpg" alt="Cookpool screenshot" class="screenshot">
@@ -63,6 +65,10 @@
                 <img src="../../img/cookpool_4.jpg" alt="Cookpool screenshot" class="screenshot">
                 <img src="../../img/cookpool_2.jpg" alt="Cookpool screenshot" class="screenshot small">
             </div>
+            <h2><span class="tilted_bg"><span class="bg">Challenges</span></span></h2>
+            <p>Ce projet a représenté plusieurs défis techniques. J'ai dû travailler sur un code ne possédant aucune documentation et sans possibilité de contacter l'auteur. J'ai donc du, à plusieurs reprises, passer par des phases de reverse engineering. De plus, je n'avais jamais utilisé Vue.js et Algolia avant ce projet. Ce projet m'a donc permis de fortement développer mes compétences. Pour finir, le site étant déjà en production, mes modifications, notamment sur la base de données, ne devaient pas altérer le site et les données actuelles.</p>
+            <h2><span class="tilted_bg"><span class="bg">Possibilités d'amélioration</span></span></h2>
+            <p>La recherche avec Algolia est executée depuis le backend. Cela représente certains avantages, comme une plus grande flexibilité. Cependant, cela a l'inconvénient d'être bien moins rapide qu'une recherche effectuée sur le frontend. Utiliser la librairie d'Algolia InstantSearch.js pourrait permettre une recherche bien plus rapide.</p>
         </section>
     </div>
     <script src="/js/bundle.js"></script>

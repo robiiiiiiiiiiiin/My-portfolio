@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> partials/commonHeaders}}
+    {{> partials/projectMetaTags data=data project=duckhuntrevenge
+    metaDesc="duckhuntrevenge.metaDesc"
+    }}
+    <title>My projects - Cookpool</title>
+</head>
+
+<body>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=duckhuntrevenge}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>duckhuntrevenge.sentence1</p>
+            <div class="mockups">
+                <img src="../img/thumb_duckhuntrevenge.jpg" alt="Duck Hunt Revenge screenshot" class="screenshot wide">
+                <img src="../img/thumb_duckhuntrevenge_2.jpg" alt="Duck Hunt Revenge screenshot" class="screenshot wide">
+            </div>
+            <h2><span class="tilted_bg"><span class="bg" data-t>Challenges</span></span></h2>
+            <p data-t>duckhuntrevenge.challenges1</p>
+            <p data-t>duckhuntrevenge.challenges2</p>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
+</body>
+
+</html>

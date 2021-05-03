@@ -53,6 +53,8 @@ body {
 
     .langs_container{
         direction: rtl;
+        position: relative;
+        z-index: 2;
 
         a {
             text-decoration: none;

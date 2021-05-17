@@ -109,8 +109,7 @@
         "year": "2021",
         "short-tags": "Laravel,Vue.js,Algolia",
         "full-tags": "Laravel,Vue.js,Algolia,CSS,JavaScript,jQueryUI,select2,DB modeling",
-        "img": "thumb_cookpool.jpg",
-        "visit": "https://cookpool.ch/"
+        "img": "thumb_cookpool.jpg"
     },
     "duckhuntrevenge": {
         "filename": "duckhuntrevenge.filename",

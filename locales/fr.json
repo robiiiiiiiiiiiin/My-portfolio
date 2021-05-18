@@ -39,7 +39,13 @@
         "myBlog": "Mon blog",
         "ariaVisit": "Visiter la version en ligne de",
         "ariaSource": "Sources gitHub de",
-        "ariaInfo": "Plus d'info sur"
+        "ariaInfo": "Plus d'info sur",
+        "sectionLang": "Sélection de la langue",
+        "sectionAbout1": "À propos de moi 1",
+        "sectionAbout2": "À propos de moi 2",
+        "sectionSkills": "Mes compétences",
+        "sectionPortfolio": "Mon portfolio",
+        "sectionContact": "Contact"
     },
     "projects": {
         "backLabel": "&lt; retour au portfolio",

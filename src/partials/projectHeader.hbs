@@ -19,7 +19,7 @@
             </a>
         {{/if}}
     </div>
-    <div class="tags">
+    <div class="tags" aria-label="tags">
         {{#each (commaSplit project.full-tags)}}
             <span class="tag {{flattenString this}}">{{this}}</span>
         {{/each}}

@@ -95,7 +95,7 @@
         "desc": "golb.desc",
         "year": "2021",
         "short-tags": "Jamstack,Gatsby,CSS",
-        "full-tags": "HTML,CSS,Gatsby,React,GraphQL,JavaScript",
+        "full-tags": "HTML,CSS,Gatsby,React,GraphQL,JavaScript,Algolia",
         "img": "thumb_golb.jpg",
         "visit": "https://golb.ch/",
         "source": "https://github.com/robiiiiiiiiiiiin/my-blog"

@@ -166,7 +166,7 @@
         "titleTag": "My Projects - GOLB",
         "desc": "Personnal tech blog",
         "metaDesc": "Tech blog built with Gatsby framework",
-        "sentence1": "I built this static website using <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a> framework. I started from the <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> template and added some functionalities like filtering by categories, a comment section using <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, a pagination system and a fully customized user interface."
+        "sentence1": "I built this static website using <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a> framework. I started from the <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> template and added some functionalities like filtering by categories, a search field using <a href='https://www.algolia.com/' target='blank'>Algolia</a>, a comment section using <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, a pagination system and a fully customized user interface."
     },
     "cookpool": {
         "filename": "cookpool",

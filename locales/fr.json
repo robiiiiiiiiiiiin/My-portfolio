@@ -168,7 +168,7 @@
         "titleTag": "Mes Projets - GOLB",
         "desc": "Blog tech personnel",
         "metaDesc": "Blog tech développé avec le framework Gatsby",
-        "sentence1": "Ce site statique a été développé avec le framework <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a>. Je me suis basé sur les fonctionnalités du template <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> et y ai ajouté une fonctionnalité de filtrage par catégories, un espace commentaire utilisant <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, un système de pagination et une interface entièrement personnalisée."
+        "sentence1": "Ce site statique a été développé avec le framework <a href=\"https://www.gatsbyjs.com/\" target=\"blank\">Gatsby</a>. Je me suis basé sur les fonctionnalités du template <a href=\"https://github.com/gatsbyjs/gatsby-starter-blog\" target=\"blank\">gatsby-starter-blog</a> et y ai ajouté une fonctionnalité de filtrage par catégories, une fonctionnalité de recherche utilisant le moteur <a href='https://www.algolia.com/' target='blank'>Algolia</a>, un espace commentaire utilisant <a href=\"https://graphcomment.com\" target=\"blank\">GraphComment</a>, un système de pagination et une interface entièrement personnalisée."
     },
     "cookpool": {
         "filename": "cookpool",

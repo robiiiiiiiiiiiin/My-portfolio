@@ -35,7 +35,11 @@
         "skillsContent": "Marketing<span class='nbsp'>&nbsp;</span>digital UX/UI Création<span class='nbsp'>&nbsp;</span>de<span class='nbsp'>&nbsp;</span>contenu<span class='nbsp'>&nbsp;</span>(suite<span class='nbsp'>&nbsp;</span>Adobe)",
         "thumbAlt": "Miniature du projet",
         "unavailable": "indisponible",
-        "visit": "visiter"
+        "visit": "visiter",
+        "myBlog": "Mon blog",
+        "ariaVisit": "Visiter la version en ligne de",
+        "ariaSource": "Sources gitHub de",
+        "ariaInfo": "Plus d'info sur"
     },
     "projects": {
         "backLabel": "&lt; retour au portfolio",

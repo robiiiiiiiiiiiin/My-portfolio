@@ -33,7 +33,11 @@
         "skillsContent": "Digital<span class='nbsp'>&nbsp;</span>marketing UX/UI Content<span class='nbsp'>&nbsp;</span>creation<span class='nbsp'>&nbsp;</span>(Adobe<span class='nbsp'>&nbsp;</span>suite)",
         "thumbAlt": "Project's thumbnail",
         "unavailable": "unavailable",
-        "visit": "visit"
+        "visit": "visit",
+        "myBlog": "My blog",
+        "ariaVisit": "Visit the live version of",
+        "ariaSource": "Github sources of",
+        "ariaInfo": "More info about"
     },
     "projects": {
         "backLabel": "&lt; back to portfolio",

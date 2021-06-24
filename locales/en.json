@@ -193,5 +193,16 @@
         "sentence1": "This website has been developed over two weeks during a virtual reality development course. It uses the A-Frame framework on which I wrote an article on my blog. The game is playable on any browser, whether it's on VR hardware, PC or mobile. Chrome or Edge are highly recommended for performance purposes with WebXR.",
         "challenges1": "The biggest technical challenge was to optimise the graphical performances. The number of polygons to be displayed can quickly increase and cause the browser to lag. I had to correctly manage the different graphic and sound assets and not to do too many operations on each frame.",
         "challenges2": "The second challenge was the UX. Firstly, VR experiences can easily cause motion sickness. So I had to create a game design that was enjoyable to play in VR. Secondly, I wanted the game to be playable on as many devices as possible. So I had to make sure that the interactions could be done with controllers as well as with a mouse or a smartphone."
+    },
+    "bouteka": {
+        "filename": "bouteka",
+        "enFilename": "bouteka",
+        "frFilename": "bouteka",
+        "title": "Bouteka",
+        "titleTag": "My Projects - Bouteka",
+        "desc": "Gamified UI for an e-shop",
+        "metaDesc": "Gamified UI for an e-shop",
+        "tldr1": "⚠️ Project in progress. The current state of the site is online but many parts are not yet finished and may contain some bugs. ⚠️",
+        "tldr2": "This project is my bachelor final project. It consists in developing an innovative interface for an e-commerce website currently in production and running with WooCommerce. The data is retrieved through the WooCommerce API and the UI is built with React and quite a lot of CSS."
     }
 }

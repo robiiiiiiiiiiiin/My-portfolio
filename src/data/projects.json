@@ -19,7 +19,7 @@
         "title": "gryonbiketest.title",
         "desc": "gryonbiketest.desc",
         "year": "2020",
-        "short-tags": "Laravel,DB modeling,jQuery",
+        "short-tags": "Laravel,DB modeling",
         "full-tags": "HTML,Laravel,PHP,DB modeling,jQuery",
         "img": "thumb_gryonbiketest.jpg",
         "visit": "http://gryon-bike-test.herokuapp.com/",
@@ -94,8 +94,8 @@
         "title": "golb.title",
         "desc": "golb.desc",
         "year": "2021",
-        "short-tags": "Jamstack,Gatsby,CSS",
-        "full-tags": "HTML,CSS,Gatsby,React,GraphQL,JavaScript,Algolia",
+        "short-tags": "Jamstack,Gatsby,Sass",
+        "full-tags": "HTML,Sass,Gatsby,React,GraphQL,JavaScript,Algolia",
         "img": "thumb_golb.jpg",
         "visit": "https://golb.ch/",
         "source": "https://github.com/robiiiiiiiiiiiin/my-blog"
@@ -123,5 +123,17 @@
         "img": "thumb_duckhuntrevenge_3.jpg",
         "source": "https://github.com/robiiiiiiiiiiiin/duck-hunt-revenge",
         "visit": "https://duckhuntrevenge.surge.sh/"
+    },
+    "bouteka": {
+        "filename": "bouteka.filename",
+        "enFilename": "bouteka.enFilename",
+        "frFilename": "bouteka.frFilename",
+        "title": "bouteka.title",
+        "desc": "bouteka.desc",
+        "year": "2021",
+        "short-tags": "React,WooCommerce,Sass",
+        "full-tags": "React,WooCommerce,Sass,Lumen,REST",
+        "img": "thumb_bouteka.jpg",
+        "visit": "https://bouteka-v2.netlify.app/"
     }
 }

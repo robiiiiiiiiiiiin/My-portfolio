@@ -261,6 +261,7 @@ body {
         > img.screenshot.mobile {
             width: 47%;
             max-width: 200px;
+            max-height: none;
         }
         > img.screenshot.small {
             width: 90vw;
@@ -325,5 +326,8 @@ body {
 .tag.jamstack   {background-color: #b80060;}
 .tag.a-frame    {background-color: #ef2d5e;}
 .tag.threejs    {background-color: #000000;}
+.tag.rest       {background-color: #009cd5;}
+.tag.react      {background-color: #53c1de;}
+.tag.lumen      {background-color: #e54537;}
 
 

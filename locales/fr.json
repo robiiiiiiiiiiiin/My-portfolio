@@ -195,5 +195,16 @@
         "sentence1": "Ce site web a été développé sur deux semaines lors d'un cours de développement en réalité virtuelle. Il utilise le framework <a href='https://aframe.io/' target='blank'>A-Frame</a> sur lequel j'ai écrit <a href='https://golb.ch/developper-avec-aframe/' target='blank'>un article</a> consultable sur mon blog. Le jeu est jouable sur n'importe quel navigateur, que ce soit sur du matériel VR, sur PC ou sur mobile. Les navigateurs Chrome ou Edge sont fortement conseillés pour des raisons de performances avec WebXR.",
         "challenges1": "Le plus gros challenge technique a été d'optimiser les performances graphiques. Le nombre de polygones à afficher peut vite devenir conséquent et faire laguer le navigateur. Il a fallu veiller à correctement gérer les différents assets graphiques et sonores et à ne pas surcharger le nombre d'opérations effectuées à chaque frame.",
         "challenges2": "Le second défi concerne l'UX. Premièrement, les expériences VR peuvent facilement provoquer le mal des transports. Il a donc fallu créer un concept de jeu agréable à jouer en VR. Deuxièmement, je voulais que le jeu soit compatible avec le plus de périphériques possible. Il a donc fallu faire en sorte que les interactions puissent autant s'effectuer avec des manettes, qu'avec une souris ou un smartphone."
+    },
+    "bouteka": {
+        "filename": "bouteka",
+        "enFilename": "bouteka",
+        "frFilename": "bouteka",
+        "title": "Bouteka",
+        "titleTag": "Mes Projets - Bouteka",
+        "desc": "Interface gamifiée pour un e-commerce",
+        "metaDesc": "Interface gamifiée pour un e-commerce",
+        "tldr1": "⚠️ Projet en cours. L'état actuel du site est en ligne mais beaucoup de parties ne sont pas encore finies et risquent de contenir des bugs. ⚠️",
+        "tldr2": "Ce projet est mon travail de bachelor. Il consiste à développer une interface innovante pour un e-commerce actuellement en production fonctionnant avec WooCommerce. Les données sont récupérée grâce à l'API WooCommerce et l'UI est réalisée avec React et pas mal de CSS."
     }
 }

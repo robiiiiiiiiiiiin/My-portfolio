@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> partials/commonHeaders}}
+    {{> partials/projectMetaTags data=data project=bouteka
+    metaDesc="bouteka.metaDesc" titleTag="bouteka.titleTag"
+    }}
+</head>
+
+<body>
+    <div class="global-wrapper">
+        <section id="sect_project">
+            {{> partials/projectHeader data=data project=bouteka}}
+            <h2><span class="tilted_bg"><span class="bg">TL ; DR</span></span></h2>
+            <p data-t>bouteka.tldr1</p>
+            <p data-t>bouteka.tldr2</p>
+            <div class="mockups">
+                <img src="../img/bouteka-1.png" alt="Bouteka mockup" class="screenshot mobile">
+                <img src="../img/bouteka-2.png" alt="Bouteka mockup" class="screenshot mobile">
+                <img src="../img/bouteka-3.png" alt="Bouteka mockup" class="screenshot mobile">
+                <img src="../img/bouteka-4.png" alt="Bouteka mockup" class="screenshot mobile">
+                <img src="../img/bouteka-5.png" alt="Bouteka mockup" class="screenshot mobile">
+            </div>
+        </section>
+    </div>
+    <script src="/js/bundle.js"></script>
+</body>
+
+</html>
